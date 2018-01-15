@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+ 	 	  
+<!--	 <environmentMode>FAST_ASSERT</environmentMode>
+	<environmentMode>FULL_ASSERT</environmentMode>  --> 
+
+
+	<solutionClass>com.esquel.APS.GEW_FN.domain.TaskAssignmentSolution</solutionClass>
+	<entityClass>com.esquel.APS.GEW_FN.domain.Task</entityClass>
+	<entityClass>com.esquel.APS.GEW_FN.domain.Step</entityClass>
+
+	<scoreDirectorFactory>
+		<!-- 6.5.0 -> 7.2.0 <scoreDefinitionType>HARD_SOFT</scoreDefinitionType> -->
+
+		<!--<easyScoreCalculatorClass>org.optaplanner.examples.vehiclerouting.solver.score.VehicleRoutingEasyScoreCalculator</easyScoreCalculatorClass> -->
+		<!--<incrementalScoreCalculatorClass>org.optaplanner.examples.vehiclerouting.solver.score.VehicleRoutingIncrementalScoreCalculator</incrementalScoreCalculatorClass> -->
+		<!-- 全部计算规则，实际计算时，会在此基础上加上偏向性计算规则  -->
+		<!--  <scoreDrl>rules/global.drl</scoreDrl> -->
+
+
+		<!--<assertionScoreDirectorFactory> -->
+		<!--</assertionScoreDirectorFactory> -->
+		<initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
+	</scoreDirectorFactory>
+ 	<!--  
+	<customPhase>
+		<customPhaseCommandClass>com.esquel.APS.GEW_FN.solver.TaskAssignmentSolutionPreinitializer</customPhaseCommandClass>
+		  <forceUpdateBestSolution>true</forceUpdateBestSolution>   
+	</customPhase>
+  -->
+  
+	<termination>
+		<terminationCompositionStyle>OR</terminationCompositionStyle>
+		<minutesSpentLimit>60</minutesSpentLimit>
+		<bestScoreLimit>0hard/0medium/0soft</bestScoreLimit>
+	</termination>
+</solver>

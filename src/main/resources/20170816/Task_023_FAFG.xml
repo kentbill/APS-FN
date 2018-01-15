@@ -1,0 +1,8789 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Task>
+		<id>1</id>
+		<lot>48653</lot>
+		<cardNos>A17705580</cardNos>
+		<nextTaskID>2</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-07-17 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 03:48:16</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>练漂后半成品入仓</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>11</id>
+		<lot>50946</lot>
+		<cardNos>A17708007</cardNos>
+		<nextTaskID>12</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-01 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>3</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-07-27 20:32:25</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>不同浆料对比实验</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>14</id>
+		<lot>50947</lot>
+		<cardNos>A17708008</cardNos>
+		<nextTaskID>15</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-01 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>3</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-07-27 19:30:35</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>不同浆料对比实验</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>19</id>
+		<lot>52123</lot>
+		<cardNos>A17800211</cardNos>
+		<nextTaskID>20</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-15 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-01 19:43:22</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>36475</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>分30Y做先锋样，其余坯布暂停</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>23</id>
+		<lot>52186</lot>
+		<cardNos>A17800281</cardNos>
+		<nextTaskID>24</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-07-30 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>480</prepareTime>
+		<arrivalTime>2017-08-02 10:21:33</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>13517</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>46</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>15</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>强烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>26</id>
+		<lot>52791</lot>
+		<cardNos>A17801085</cardNos>
+		<nextTaskID>27</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-11 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:36:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>36475</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>安排40Y先锋样，其余坯布暂停</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>30</id>
+		<lot>53323</lot>
+		<cardNos>A17801552</cardNos>
+		<nextTaskID>31</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-16 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:36:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>70439</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>需要分出30Y布暂停在坯布，其余正常安排</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>40</id>
+		<lot>53667</lot>
+		<cardNos>A17709169,A17800601</cardNos>
+		<nextTaskID>41</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-26 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>26</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-07 20:16:49</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>1040</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>46</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>15</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>强烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>48</id>
+		<lot>54931</lot>
+		<cardNos>A17802953</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-04 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>3</duration>
+		<prepareTime>480</prepareTime>
+		<arrivalTime>2017-08-12 04:08:23</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>24855</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>58</id>
+		<lot>55150</lot>
+		<cardNos>A17803320</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>18</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 03:56:10</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>61</id>
+		<lot>55324</lot>
+		<cardNos>A17803512</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>22</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 04:00:22</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>65</id>
+		<lot>55357</lot>
+		<cardNos>A17803191</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-18 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>2</duration>
+		<prepareTime>480</prepareTime>
+		<arrivalTime>2017-08-13 08:26:34</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>5507</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>66</id>
+		<lot>55359</lot>
+		<cardNos>A17803329</cardNos>
+		<nextTaskID>67</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-15 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>3</duration>
+		<prepareTime>480</prepareTime>
+		<arrivalTime>2017-08-13 19:50:51</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>854</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>71</id>
+		<lot>55420</lot>
+		<cardNos>A17803276,A17803448,A17803594</cardNos>
+		<nextTaskID>72</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-10 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>34</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 04:14:02</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>74</id>
+		<lot>55458</lot>
+		<cardNos>A17803593</cardNos>
+		<nextTaskID>75</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-14 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>3</duration>
+		<prepareTime>480</prepareTime>
+		<arrivalTime>2017-08-15 00:38:09</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>4781</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>77</id>
+		<lot>55473</lot>
+		<cardNos>A17803641</cardNos>
+		<nextTaskID>78</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-23 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>17</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>1900-01-01 00:00:00</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>19764</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>79</id>
+		<lot>55476</lot>
+		<cardNos>A17803647,A17803649</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>34</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 04:12:41</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>92</id>
+		<lot>55625</lot>
+		<cardNos>A17803753</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-14 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>3</duration>
+		<prepareTime>480</prepareTime>
+		<arrivalTime>2017-08-15 17:10:12</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>1103</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>95</id>
+		<lot>55679</lot>
+		<cardNos>A17803096</cardNos>
+		<nextTaskID>96</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-15 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-12 13:55:33</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>7892</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>103</id>
+		<lot>55698</lot>
+		<cardNos>A17803622</cardNos>
+		<nextTaskID>104</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-25 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-14 19:34:38</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>28611</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value>TQ</value>
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>先安排50码做后整，剩下50码坯布要HOLD住；</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>107</id>
+		<lot>55715</lot>
+		<cardNos>A17803847</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>17</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 03:56:09</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>108</id>
+		<lot>55739</lot>
+		<cardNos>A17803668,A17803673,A17803860</cardNos>
+		<nextTaskID>109</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-10 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>28</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 04:08:43</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>112</id>
+		<lot>55753</lot>
+		<cardNos>A17803877</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>17</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 03:56:22</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>134</id>
+		<lot>55874</lot>
+		<cardNos>A17802735,A17803886,A17803984</cardNos>
+		<nextTaskID>135</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-30 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>42</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 04:52:50</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>138</id>
+		<lot>55876</lot>
+		<cardNos>A17803995</cardNos>
+		<nextTaskID>139</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-09-01 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>18</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 10:51:41</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>33757</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>备注</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>内回修</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>150</id>
+		<lot>55944</lot>
+		<cardNos>A17802800,A17803235,A17803875,A17804053,A17804073</cardNos>
+		<nextTaskID>151</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-06 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>77</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 17:16:27</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>136392</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>8</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>40.5</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>153</id>
+		<lot>55951</lot>
+		<cardNos>A17804084</cardNos>
+		<nextTaskID>154</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-30 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 16:00:27</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>58143</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>5</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>40.5</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>158</id>
+		<lot>55958</lot>
+		<cardNos>A17804090</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>16</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 16:14:59</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>175</id>
+		<lot>56054</lot>
+		<cardNos>A17804159</cardNos>
+		<nextTaskID>176</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-26 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>17</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 16:16:27</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>57791</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>5</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>40.5</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>185</id>
+		<lot>56059</lot>
+		<cardNos>A17803429,A17803932,A17804179</cardNos>
+		<nextTaskID>186</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-05 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>47</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 09:06:07</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>197</id>
+		<lot>56085</lot>
+		<cardNos>A17803521,A17804199</cardNos>
+		<nextTaskID>198</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-05 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>23</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 07:09:00</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>203</id>
+		<lot>56090</lot>
+		<cardNos>A17803937,A17803938,A17804034,A17804196</cardNos>
+		<nextTaskID>204</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-10 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>37</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:12:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>222</id>
+		<lot>56112</lot>
+		<cardNos>A17803608,A17804237</cardNos>
+		<nextTaskID>223</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-09-01 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>34</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 09:10:53</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>37682</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>240</id>
+		<lot>56127</lot>
+		<cardNos>A17804267</cardNos>
+		<nextTaskID>241</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-31 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>16</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 17:03:26</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>106392</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>8</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>46</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>15</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>强烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>243</id>
+		<lot>56130</lot>
+		<cardNos>A17803663</cardNos>
+		<nextTaskID>244</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-18 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>3</duration>
+		<prepareTime>480</prepareTime>
+		<arrivalTime>2017-08-15 05:03:07</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>4499</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>248</id>
+		<lot>56137</lot>
+		<cardNos>A17803534,A17804272</cardNos>
+		<nextTaskID>249</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-31 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>40</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 10:03:53</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>25021</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>258</id>
+		<lot>56146</lot>
+		<cardNos>A17804113</cardNos>
+		<nextTaskID>259</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-28 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 21:37:41</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>275</id>
+		<lot>56161</lot>
+		<cardNos>A17804319</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>15</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 16:13:59</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>276</id>
+		<lot>56164</lot>
+		<cardNos>A17804024,A17804323</cardNos>
+		<nextTaskID>277</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-19 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>19</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 00:47:53</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>70520</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>40.5</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>284</id>
+		<lot>56172</lot>
+		<cardNos>A17804087</cardNos>
+		<nextTaskID>285</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>19</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 16:55:37</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>1955</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value>TQ</value>
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>291</id>
+		<lot>56205</lot>
+		<cardNos>A17803316</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-14 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>8</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 08:55:55</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>78980</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>326</id>
+		<lot>56244</lot>
+		<cardNos>A17803387,A17804407</cardNos>
+		<nextTaskID>327</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-09-06 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>35</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:10:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>7469</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value>OR</value>
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>341</id>
+		<lot>56255</lot>
+		<cardNos>A17804416</cardNos>
+		<nextTaskID>342</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-19 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>2</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-17 19:38:42</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>352</id>
+		<lot>56293</lot>
+		<cardNos>A17804439</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-22 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>2</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 01:11:53</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>56225</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>5</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>46</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>15</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>强烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>358</id>
+		<lot>56299</lot>
+		<cardNos>A17803963,A17803965,A17804444</cardNos>
+		<nextTaskID>359</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>42</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:51:20</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>374</id>
+		<lot>56313</lot>
+		<cardNos>A17804448</cardNos>
+		<nextTaskID>375</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>5</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:40:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>20907</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>377</id>
+		<lot>56315</lot>
+		<cardNos>A17804452</cardNos>
+		<nextTaskID>378</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-17 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>21</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:56:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>6798</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>382</id>
+		<lot>56317</lot>
+		<cardNos>A17804458</cardNos>
+		<nextTaskID>383</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-06 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>15</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:50:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>388</id>
+		<lot>56319</lot>
+		<cardNos>A17804461</cardNos>
+		<nextTaskID>389</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-30 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>1900-01-01 00:00:00</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>69285</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>40.5</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>393</id>
+		<lot>56321</lot>
+		<cardNos>A17804462,A17804466</cardNos>
+		<nextTaskID>394</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>22</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 07:06:48</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>1955</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value>TQ</value>
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>419</id>
+		<lot>56339</lot>
+		<cardNos>A17804490</cardNos>
+		<nextTaskID>420</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-26 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>21</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:56:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>1358</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>备注</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>落幅</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>421</id>
+		<lot>56339</lot>
+		<cardNos>A17804490</cardNos>
+		<nextTaskID>422</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-26 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>21</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>1900-01-01 00:00:00</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>1358</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>备注</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>落幅</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>424</id>
+		<lot>56340</lot>
+		<cardNos>A17803933,A17804487</cardNos>
+		<nextTaskID>425</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-03 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>21</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 08:33:51</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>5465</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>427</id>
+		<lot>56341</lot>
+		<cardNos>A17804491</cardNos>
+		<nextTaskID>428</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-09-04 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>10</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:45:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>61792</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>430</id>
+		<lot>56342</lot>
+		<cardNos>A17804486,A17804494</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>21</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 09:16:47</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>431</id>
+		<lot>56343</lot>
+		<cardNos>A17804488</cardNos>
+		<nextTaskID>432</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-27 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>3</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:38:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>18441</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>434</id>
+		<lot>56344</lot>
+		<cardNos>A17804216,A17804230,A17804492</cardNos>
+		<nextTaskID>435</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-05 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>43</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:18:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>438</id>
+		<lot>56345</lot>
+		<cardNos>A17804481</cardNos>
+		<nextTaskID>439</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-20 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>7</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:42:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>444</id>
+		<lot>56347</lot>
+		<cardNos>A17804497</cardNos>
+		<nextTaskID>445</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-30 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>21</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:31:34</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>51210</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>5</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>446</id>
+		<lot>56350</lot>
+		<cardNos>A17804501</cardNos>
+		<nextTaskID>447</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-27 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 08:42:50</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>4484</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>455</id>
+		<lot>56353</lot>
+		<cardNos>A17804148,A17804287,A17804510</cardNos>
+		<nextTaskID>456</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-06 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>48</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:23:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>458</id>
+		<lot>56354</lot>
+		<cardNos>A17803871,A17804509</cardNos>
+		<nextTaskID>459</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-26 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>35</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 09:16:50</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>38117</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>461</id>
+		<lot>56355</lot>
+		<cardNos>A17804507</cardNos>
+		<nextTaskID>462</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>16</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 10:43:33</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>3859</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>466</id>
+		<lot>56356</lot>
+		<cardNos>A17803962,A17804514</cardNos>
+		<nextTaskID>467</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-14 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>27</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>1900-01-01 00:00:00</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>163550</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>8</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>469</id>
+		<lot>56357</lot>
+		<cardNos>A17804242,A17804428,A17804515</cardNos>
+		<nextTaskID>470</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-30 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>48</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 10:21:02</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>271</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>翻单PT176254需要大货暂停，安排先锋样给QA确认颜色！！！</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>473</id>
+		<lot>56358</lot>
+		<cardNos>A17804516</cardNos>
+		<nextTaskID>474</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-06 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>11</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:46:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>9287</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>476</id>
+		<lot>56359</lot>
+		<cardNos>A17804517</cardNos>
+		<nextTaskID>477</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-25 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:03:25</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>5295</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>480</id>
+		<lot>56360</lot>
+		<cardNos>A17804518</cardNos>
+		<nextTaskID>481</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-25 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:36:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>39781</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>483</id>
+		<lot>56361</lot>
+		<cardNos>A17804519</cardNos>
+		<nextTaskID>484</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-26 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:09:42</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>497</id>
+		<lot>56365</lot>
+		<cardNos>A17804523</cardNos>
+		<nextTaskID>498</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:03:25</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>6744</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>500</id>
+		<lot>56366</lot>
+		<cardNos>A17804524</cardNos>
+		<nextTaskID>501</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:01:25</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>4404</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>503</id>
+		<lot>56367</lot>
+		<cardNos>A17804525</cardNos>
+		<nextTaskID>504</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-03 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:01:25</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>4610</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>506</id>
+		<lot>56368</lot>
+		<cardNos>A17804526</cardNos>
+		<nextTaskID>507</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:01:25</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>26650</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>509</id>
+		<lot>56369</lot>
+		<cardNos>A17804527</cardNos>
+		<nextTaskID>510</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:36:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>5490</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>512</id>
+		<lot>56370</lot>
+		<cardNos>A17804529</cardNos>
+		<nextTaskID>513</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-25 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:03:25</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>5295</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>516</id>
+		<lot>56371</lot>
+		<cardNos>A17804530</cardNos>
+		<nextTaskID>517</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-27 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>2</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:37:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>17445</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>527</id>
+		<lot>56374</lot>
+		<cardNos>A17804535</cardNos>
+		<nextTaskID>528</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-22 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:36:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>31369</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>少荧</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>530</id>
+		<lot>56375</lot>
+		<cardNos>A17804433,A17804536,A17804544</cardNos>
+		<nextTaskID>531</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>43</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:18:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>5162</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>534</id>
+		<lot>56376</lot>
+		<cardNos>A17804538</cardNos>
+		<nextTaskID>535</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-21 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>5</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:40:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>1940</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>537</id>
+		<lot>56377</lot>
+		<cardNos>A17804542</cardNos>
+		<nextTaskID>538</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-03 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 10:28:33</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>3255</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>547</id>
+		<lot>56380</lot>
+		<cardNos>A17804229,A17804541</cardNos>
+		<nextTaskID>548</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-12 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>39</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:14:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>32997</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>550</id>
+		<lot>56381</lot>
+		<cardNos>A17804546</cardNos>
+		<nextTaskID>551</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>18</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:53:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>PT169035纱线降低强力，防强力低和破洞问题，大货坯布暂停，先安排一段首落布确认，各工序白班加工</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>554</id>
+		<lot>56382</lot>
+		<cardNos>A17804550</cardNos>
+		<nextTaskID>555</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-27 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 10:28:33</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>5376</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>554</id>
+		<lot>56382</lot>
+		<cardNos>A17804550</cardNos>
+		<nextTaskID>555</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-27 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 10:28:33</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>5376</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>557</id>
+		<lot>56383</lot>
+		<cardNos>A17804551</cardNos>
+		<nextTaskID>558</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-14 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:36:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>备注</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>内回修</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>562</id>
+		<lot>56384</lot>
+		<cardNos>A17804545,A17804548</cardNos>
+		<nextTaskID>563</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-07 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>25</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:00:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>39729</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+
+	<Task>
+		<id>565</id>
+		<lot>56385</lot>
+		<cardNos>A17803898,A17804263,A17804549</cardNos>
+		<nextTaskID>566</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>41</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:16:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>569</id>
+		<lot>56386</lot>
+		<cardNos>A17804469,A17804537,A17804547</cardNos>
+		<nextTaskID>570</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-08 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>41</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:16:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>PT169035纱线降低强力，防强力低和破洞问题，大货坯布暂停，先安排一段首落布确认，各工序白班加工</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>577</id>
+		<lot>56389</lot>
+		<cardNos>A17804553</cardNos>
+		<nextTaskID>578</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-04 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>10</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:45:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>581</id>
+		<lot>56390</lot>
+		<cardNos>A17804557</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-29 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>19</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:54:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>79544</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>6</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>582</id>
+		<lot>56391</lot>
+		<cardNos>A17804558</cardNos>
+		<nextTaskID>583</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-28 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>10</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:45:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>20628</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>586</id>
+		<lot>56393</lot>
+		<cardNos>A17804562</cardNos>
+		<nextTaskID>587</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-30 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>12</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:47:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>102925</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>8</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>589</id>
+		<lot>56394</lot>
+		<cardNos>A17804506</cardNos>
+		<nextTaskID>590</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>18</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:27:20</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>593</id>
+		<lot>56395</lot>
+		<cardNos>A17804331,A17804333</cardNos>
+		<nextTaskID>594</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>31</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:06:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>13772</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value>TQ</value>
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>大货暂停，安排先锋样确认颜色</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>597</id>
+		<lot>56396</lot>
+		<cardNos>A17803994,A17804282</cardNos>
+		<nextTaskID>598</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-09-02 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>39</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:14:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>4893</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>2</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>大货暂停，先加工一段先锋样确认颜色</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>601</id>
+		<lot>56397</lot>
+		<cardNos>A17804566</cardNos>
+		<nextTaskID>0</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-26 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:04:25</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>30789</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>特白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>4</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value>SM01</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>4#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value>冷轧堆卷</value>
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>602</id>
+		<lot>56398</lot>
+		<cardNos>A17803580,A17803964,A17804564</cardNos>
+		<nextTaskID>603</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-31 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>46</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 12:21:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>48</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>46</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>15</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>强烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>609</id>
+		<lot>56400</lot>
+		<cardNos>A17804568</cardNos>
+		<nextTaskID>610</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-30 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>1</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-18 11:36:24</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>13804</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>9</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>2#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>613</id>
+		<lot>56401</lot>
+		<cardNos>A17802137,A17802512,A17803238,A17804286</cardNos>
+		<nextTaskID>614</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FG</department>
+		<deliveryTime>2017-08-23 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>74</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>1900-01-01 00:00:00</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>20334</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>漂白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>100</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>3</value>
+			</Attribute>
+			<Attribute>
+				<name>风机频率</name>
+				<value>40.5</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value>12</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FG</value>
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value>普通烧毛</value>
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	<Task>
+		<id>263</id>
+		<lot>56148</lot>
+		<cardNos>A17804069</cardNos>
+		<nextTaskID>264</nextTaskID>
+		<processCode>023</processCode>
+		<priority>0</priority>
+		<department>FA</department>
+		<deliveryTime>2017-08-28 00:00:00</deliveryTime>
+		<maxWaitingTime>-1</maxWaitingTime>
+		<minWaitingTime>-1</minWaitingTime>
+		<duration>2</duration>
+		<prepareTime>0</prepareTime>
+		<arrivalTime>2017-08-16 16:22:04</arrivalTime>
+		<attributeRequests>
+			<Attribute>
+				<name>Dosage_Factor</name>
+				<value>0</value>
+			</Attribute>
+			<Attribute>
+				<name>TQOR</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>WHITE_TYPE</name>
+				<value>本白</value>
+			</Attribute>
+			<Attribute>
+				<name>车速</name>
+				<value>110</value>
+			</Attribute>
+			<Attribute>
+				<name>当量段</name>
+				<value>1</value>
+			</Attribute>
+			<Attribute>
+				<name>跟踪要求</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>混合气压</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>火力</name>
+				<value>10</value>
+			</Attribute>
+			<Attribute>
+				<name>机台</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>加工地点</name>
+				<value>FA</value>
+			</Attribute>
+			<Attribute>
+				<name>落布类型</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>牛仔纱</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>配方</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛强度</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>烧毛位置</name>
+				<value>3#</value>
+			</Attribute>
+			<Attribute>
+				<name>天然染料</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>预拉斜</name>
+				<value />
+			</Attribute>
+			<Attribute>
+				<name>质量备注</name>
+				<value />
+			</Attribute>
+		</attributeRequests>
+	</Task>
+	
+</list>

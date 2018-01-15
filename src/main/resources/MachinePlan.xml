@@ -1,0 +1,1086 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MachinePlan>
+    <id>1990308</id>
+    <machineCode>1</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-SG01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066762</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("TQ","GN","OR","RD","普通色")  &amp;&amp; (!getTask().getAttributeValue("当量段").equals("")) &amp;&amp; Float.parseFloat(getTask().getAttributeValue("当量段")) in (1,2,3,4,5,6,7,8)  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067362</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("111") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("TQ","GN","OR","RD","普通色")  &amp;&amp; (!getTask().getAttributeValue("当量段").equals("")) &amp;&amp; Float.parseFloat(getTask().getAttributeValue("当量段")) in (1,2,3,4,5,6,7,8) )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067363</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getProcessCode() in ("114") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990309</id>
+    <machineCode>2</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-SG02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066763</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")  &amp;&amp; (!getTask().getAttributeValue("当量段").equals("")) &amp;&amp; Float.parseFloat(getTask().getAttributeValue("当量段")) in (1,2,3,4,5,6,7,8)  &amp;&amp; getTask().getAttributeValue("TQOR") in ("TQ","GN","OR","RD","普通色") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067361</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("111") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067364</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getProcessCode() in ("114") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990310</id>
+    <machineCode>4</machineCode>
+    <department>FG</department>
+    <machineType>CL</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-CL02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990311</id>
+    <machineCode>5</machineCode>
+    <department>FA</department>
+    <machineType>CL</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CL01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990312</id>
+    <machineCode>6</machineCode>
+    <department>FG</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-CP01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990313</id>
+    <machineCode>7</machineCode>
+    <department>FG</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-CP02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990314</id>
+    <machineCode>8</machineCode>
+    <department>FG</department>
+    <machineType>DS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-DS01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066767</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990315</id>
+    <machineCode>9</machineCode>
+    <department>FG</department>
+    <machineType>DS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-DS02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066768</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990316</id>
+    <machineCode>10</machineCode>
+    <department>FG</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-ST01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990317</id>
+    <machineCode>11</machineCode>
+    <department>FG</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-ST02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990318</id>
+    <machineCode>12</machineCode>
+    <department>FG</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-ST03</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990319</id>
+    <machineCode>13</machineCode>
+    <department>FG</department>
+    <machineType>DY</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-DY01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990328</id>
+    <machineCode>14</machineCode>
+    <department>FG</department>
+    <machineType>MC</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-12 15:00:00</endTime>
+    <machineNO>FG-MC01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066742</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") ) &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990329</id>
+    <machineCode>14</machineCode>
+    <department>FG</department>
+    <machineType>MC</machineType>
+    <startTime>2018-01-12 15:01:00</startTime>
+    <endTime>2018-01-13 15:00:00</endTime>
+    <machineNO>FG-MC01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066743</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") ) &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990330</id>
+    <machineCode>14</machineCode>
+    <department>FG</department>
+    <machineType>MC</machineType>
+    <startTime>2018-01-13 15:00:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-MC01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066778</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990332</id>
+    <machineCode>15</machineCode>
+    <department>FG</department>
+    <machineType>MC</machineType>
+    <startTime>2018-01-13 07:01:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-MC02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066780</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990333</id>
+    <machineCode>16</machineCode>
+    <department>FA</department>
+    <machineType>SD</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SD02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990334</id>
+    <machineCode>17</machineCode>
+    <department>FG</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-WS01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066939</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990335</id>
+    <machineCode>19</machineCode>
+    <department>FG</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-WS13</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066942</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990336</id>
+    <machineCode>20</machineCode>
+    <department>FA</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-WS14</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066943</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990337</id>
+    <machineCode>21</machineCode>
+    <department>FG</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-WS15</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066941</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990338</id>
+    <machineCode>22</machineCode>
+    <department>FA</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-WS16</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066940</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990339</id>
+    <machineCode>25</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-RS01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990340</id>
+    <machineCode>26</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-RS02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990341</id>
+    <machineCode>27</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-RS03</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990342</id>
+    <machineCode>28</machineCode>
+    <department>FG</department>
+    <machineType>SR</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-SR01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990343</id>
+    <machineCode>31</machineCode>
+    <department>FG</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-CP03</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990344</id>
+    <machineCode>33</machineCode>
+    <department>FG</department>
+    <machineType>CL</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-CL01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990345</id>
+    <machineCode>34</machineCode>
+    <department>FG</department>
+    <machineType>DY</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-DY02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990346</id>
+    <machineCode>35</machineCode>
+    <department>FA</department>
+    <machineType>SG</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SG01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066764</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067360</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("111") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067365</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getProcessCode() in ("114") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990347</id>
+    <machineCode>36</machineCode>
+    <department>FA</department>
+    <machineType>SG</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SG02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066765</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白","特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067359</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("111") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067366</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getProcessCode() in ("114") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990348</id>
+    <machineCode>37</machineCode>
+    <department>FA</department>
+    <machineType>DS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-DS01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066766</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; ( getTask().getAttributeValue("备注").equals("哈哈") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990349</id>
+    <machineCode>38</machineCode>
+    <department>FA</department>
+    <machineType>DS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-DS02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066769</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990350</id>
+    <machineCode>39</machineCode>
+    <department>FA</department>
+    <machineType>MC</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-MC01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066775</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990351</id>
+    <machineCode>40</machineCode>
+    <department>FA</department>
+    <machineType>MC</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-MC02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066776</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990352</id>
+    <machineCode>41</machineCode>
+    <department>FA</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-WS01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066936</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990353</id>
+    <machineCode>42</machineCode>
+    <department>FA</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-WS02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066935</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990354</id>
+    <machineCode>43</machineCode>
+    <department>FA</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-ST01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990355</id>
+    <machineCode>44</machineCode>
+    <department>FA</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-ST02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990356</id>
+    <machineCode>45</machineCode>
+    <department>FA</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CP01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990357</id>
+    <machineCode>46</machineCode>
+    <department>FA</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CP02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990358</id>
+    <machineCode>47</machineCode>
+    <department>FA</department>
+    <machineType>SD</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SD01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990359</id>
+    <machineCode>48</machineCode>
+    <department>FA</department>
+    <machineType>BK</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-BK01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990360</id>
+    <machineCode>50</machineCode>
+    <department>FA</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-ST03</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990361</id>
+    <machineCode>51</machineCode>
+    <department>FA</department>
+    <machineType>RM</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-RM01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17067092</id>
+        <code>066</code>
+        <name>液氨丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("066") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990362</id>
+    <machineCode>52</machineCode>
+    <department>FA</department>
+    <machineType>BL</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-BL01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066770</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17066937</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067323</id>
+        <code>095</code>
+        <name>冷轧堆退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("095") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067324</id>
+        <code>096</code>
+        <name>退浆煮练</name>
+        <conditionExpression>getTask().getProcessCode() in ("096") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990363</id>
+    <machineCode>53</machineCode>
+    <department>FG</department>
+    <machineType>DH</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-DH01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990364</id>
+    <machineCode>54</machineCode>
+    <department>FA</department>
+    <machineType>FL</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-FL01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990365</id>
+    <machineCode>55</machineCode>
+    <department>FA</department>
+    <machineType>SD</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SD03</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990366</id>
+    <machineCode>56</machineCode>
+    <department>FA</department>
+    <machineType>RT</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-RT01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990367</id>
+    <machineCode>57</machineCode>
+    <department>FA</department>
+    <machineType>SD</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SD04</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990368</id>
+    <machineCode>58</machineCode>
+    <department>FA</department>
+    <machineType>CD</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CD01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990369</id>
+    <machineCode>59</machineCode>
+    <department>FA</department>
+    <machineType>CW</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CW01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990370</id>
+    <machineCode>60</machineCode>
+    <department>FA</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CP03</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990371</id>
+    <machineCode>62</machineCode>
+    <department>FA</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-ST04</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990372</id>
+    <machineCode>65</machineCode>
+    <department>FA</department>
+    <machineType>RM</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-RM02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17067091</id>
+        <code>066</code>
+        <name>液氨丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("066") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FA") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990373</id>
+    <machineCode>66</machineCode>
+    <department>FA</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-ST05</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990374</id>
+    <machineCode>67</machineCode>
+    <department>FA</department>
+    <machineType>CB</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CB01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066771</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067321</id>
+        <code>093</code>
+        <name>退浆机回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("093") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067322</id>
+        <code>095</code>
+        <name>冷轧堆退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("095") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067325</id>
+        <code>096</code>
+        <name>退浆煮练</name>
+        <conditionExpression>getTask().getProcessCode() in ("096") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17067348</id>
+        <code>106</code>
+        <name>退浆机汽蒸</name>
+        <conditionExpression>getTask().getProcessCode() in ("106") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990375</id>
+    <machineCode>68</machineCode>
+    <department>FA</department>
+    <machineType>SD</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SD05</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990376</id>
+    <machineCode>69</machineCode>
+    <department>FA</department>
+    <machineType>MC</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-MC03</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066774</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990377</id>
+    <machineCode>70</machineCode>
+    <department>FA</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-WS04</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066938</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990378</id>
+    <machineCode>71</machineCode>
+    <department>FA</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CP04</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990379</id>
+    <machineCode>72</machineCode>
+    <department>FA</department>
+    <machineType>SW</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SW01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990380</id>
+    <machineCode>73</machineCode>
+    <department>FA</department>
+    <machineType>SW</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SW02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990381</id>
+    <machineCode>75</machineCode>
+    <department>FG</department>
+    <machineType>CL</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-CL03</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990382</id>
+    <machineCode>76</machineCode>
+    <department>FG</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-CP04</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990383</id>
+    <machineCode>77</machineCode>
+    <department>FA</department>
+    <machineType>RM</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-RM03</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17067090</id>
+        <code>066</code>
+        <name>液氨丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("066") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990384</id>
+    <machineCode>78</machineCode>
+    <department>FA</department>
+    <machineType>SD</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SD06</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990385</id>
+    <machineCode>79</machineCode>
+    <department>FA</department>
+    <machineType>CP</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-CP05</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990386</id>
+    <machineCode>80</machineCode>
+    <department>FA</department>
+    <machineType>WS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-WS05</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>17066934</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990387</id>
+    <machineCode>89</machineCode>
+    <department>FA</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-ST06</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990388</id>
+    <machineCode>90</machineCode>
+    <department>FA</department>
+    <machineType>ST</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-ST07</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990389</id>
+    <machineCode>91</machineCode>
+    <department>FA</department>
+    <machineType>BK</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-BK02</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990390</id>
+    <machineCode>92</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-RS04</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990391</id>
+    <machineCode>93</machineCode>
+    <department>FG</department>
+    <machineType>CA</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-CA01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990392</id>
+    <machineCode>94</machineCode>
+    <department>FA</department>
+    <machineType>SL</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SL01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990393</id>
+    <machineCode>95</machineCode>
+    <department>FA</department>
+    <machineType>SM</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-SM01</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990394</id>
+    <machineCode>96</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FG-RS05</machineNO>
+    <processes />
+  </MachinePlan>
+  <MachinePlan>
+    <id>1990395</id>
+    <machineCode>97</machineCode>
+    <department>FA</department>
+    <machineType>DM</machineType>
+    <startTime>2018-01-12 01:31:00</startTime>
+    <endTime>2018-01-14 01:01:00</endTime>
+    <machineNO>FA-DM01</machineNO>
+    <processes />
+  </MachinePlan>
+</list>

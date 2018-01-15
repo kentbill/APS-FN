@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NonproductionTaskSet>
+    <processCode>006</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>2</id>
+        <name>不同车速接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>3</id>
+        <name>大当量段转小当量段换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>4</id>
+        <name>工序不同转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>5</id>
+        <name>练配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>7</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>8</id>
+        <name>配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getProcessCode().equals("006") &amp;&amp; (!getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方")) || !getPreviousTask().getAttributeValue("漂配方").equals(getNextTask().getAttributeValue("漂配方"))) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getProcessCode().equals("097") &amp;&amp; !getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>9</id>
+        <name>漂白转特白接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>10</id>
+        <name>漂配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>11</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>12</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>13</id>
+        <name>预拉斜要求不同接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>016</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>23</id>
+        <name>不同车速接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>24</id>
+        <name>大当量段转小当量段换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>25</id>
+        <name>工序不同转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>26</id>
+        <name>碱浓不同接导布换碱浓</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("碱浓").equals(getNextTask().getAttributeValue("碱浓"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>27</id>
+        <name>卷装要求(落布的包装方式)不同接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("卷装").equals(getNextTask().getAttributeValue("卷装"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>28</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>29</id>
+        <name>漂白转特白接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>30</id>
+        <name>特白转漂白换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白","少荧") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>31</id>
+        <name>特白转少荧换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>32</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>33</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>023</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>15</id>
+        <name>大当量段转小当量段清洁机台</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>16</id>
+        <name>工序转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>17</id>
+        <name>接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("车速").equals(getNextTask().getAttributeValue("车速")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛强度").equals(getNextTask().getAttributeValue("烧毛强度")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("混合气压").equals(getNextTask().getAttributeValue("混合气压")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("风机频率").equals(getNextTask().getAttributeValue("风机频率")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("火力").equals(getNextTask().getAttributeValue("火力")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("落布类型").equals(getNextTask().getAttributeValue("落布类型")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("卷装").equals(getNextTask().getAttributeValue("卷装"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>18</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>19</id>
+        <name>特白转漂白清洁机台</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白","少荧") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>20</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>21</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>040</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>23</id>
+        <name>不同车速接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>24</id>
+        <name>大当量段转小当量段换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>25</id>
+        <name>工序不同转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>26</id>
+        <name>碱浓不同接导布换碱浓</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("碱浓").equals(getNextTask().getAttributeValue("碱浓"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>27</id>
+        <name>卷装要求(落布的包装方式)不同接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("卷装").equals(getNextTask().getAttributeValue("卷装"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>28</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>29</id>
+        <name>漂白转特白接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>30</id>
+        <name>特白转漂白换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白","少荧") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>31</id>
+        <name>特白转少荧换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>32</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>33</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>066</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>48</id>
+        <name>大当量段转小当量段换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>49</id>
+        <name>卷装要求(落布包装方式)不同接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("卷装").equals(getNextTask().getAttributeValue("卷装"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>51</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>52</id>
+        <name>漂白转特白接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>53</id>
+        <name>特白转漂白换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白","少荧") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>54</id>
+        <name>特白转少荧换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>55</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>56</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>097</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>2</id>
+        <name>不同车速接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>3</id>
+        <name>大当量段转小当量段换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>4</id>
+        <name>工序不同转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>5</id>
+        <name>练配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>7</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>8</id>
+        <name>配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getProcessCode().equals("006") &amp;&amp; (!getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方")) || !getPreviousTask().getAttributeValue("漂配方").equals(getNextTask().getAttributeValue("漂配方"))) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getProcessCode().equals("097") &amp;&amp; !getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>9</id>
+        <name>漂白转特白接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>10</id>
+        <name>漂配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>11</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>12</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>13</id>
+        <name>预拉斜要求不同接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>105</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>2</id>
+        <name>不同车速接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>3</id>
+        <name>大当量段转小当量段换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>4</id>
+        <name>工序不同转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>5</id>
+        <name>练配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>7</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>8</id>
+        <name>配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getProcessCode().equals("006") &amp;&amp; (!getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方")) || !getPreviousTask().getAttributeValue("漂配方").equals(getNextTask().getAttributeValue("漂配方"))) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getProcessCode().equals("097") &amp;&amp; !getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>9</id>
+        <name>漂白转特白接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>10</id>
+        <name>漂配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>11</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>12</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>13</id>
+        <name>预拉斜要求不同接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>111</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>15</id>
+        <name>大当量段转小当量段清洁机台</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>16</id>
+        <name>工序转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>17</id>
+        <name>接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("车速").equals(getNextTask().getAttributeValue("车速")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛强度").equals(getNextTask().getAttributeValue("烧毛强度")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("混合气压").equals(getNextTask().getAttributeValue("混合气压")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("风机频率").equals(getNextTask().getAttributeValue("风机频率")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("火力").equals(getNextTask().getAttributeValue("火力")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("落布类型").equals(getNextTask().getAttributeValue("落布类型")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("卷装").equals(getNextTask().getAttributeValue("卷装"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>18</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>19</id>
+        <name>特白转漂白清洁机台</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白","少荧") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>20</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>21</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>114</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>15</id>
+        <name>大当量段转小当量段清洁机台</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>16</id>
+        <name>工序转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>17</id>
+        <name>接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("车速").equals(getNextTask().getAttributeValue("车速")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛强度").equals(getNextTask().getAttributeValue("烧毛强度")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("混合气压").equals(getNextTask().getAttributeValue("混合气压")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("风机频率").equals(getNextTask().getAttributeValue("风机频率")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("火力").equals(getNextTask().getAttributeValue("火力")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("落布类型").equals(getNextTask().getAttributeValue("落布类型")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方")) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("卷装").equals(getNextTask().getAttributeValue("卷装"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>18</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>19</id>
+        <name>特白转漂白清洁机台</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("特白","加白","少荧") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>20</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>21</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+  <NonproductionTaskSet>
+    <processCode>135</processCode>
+    <nonproductionTasks>
+      <NonproductionTask>
+        <id>2</id>
+        <name>不同车速接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("烧毛位置").equals(getNextTask().getAttributeValue("烧毛位置"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>3</id>
+        <name>大当量段转小当量段换水洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("Dosage_Factor")&gt;getNextTask().getAttributeValue("Dosage_Factor")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>4</id>
+        <name>工序不同转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>!getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode())</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>5</id>
+        <name>练配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>7</id>
+        <name>牛仔纱与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("牛仔纱").equals(getNextTask().getAttributeValue("牛仔纱"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>8</id>
+        <name>配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getProcessCode().equals("006") &amp;&amp; (!getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方")) || !getPreviousTask().getAttributeValue("漂配方").equals(getNextTask().getAttributeValue("漂配方"))) || getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getProcessCode().equals("097") &amp;&amp; !getPreviousTask().getAttributeValue("配方").equals(getNextTask().getAttributeValue("配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>9</id>
+        <name>漂白转特白接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白") &amp;&amp; getNextTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧")</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>10</id>
+        <name>漂配方不同接导布换配方</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>11</id>
+        <name>特殊色转换</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("TQOR").equals(getNextTask().getAttributeValue("TQOR"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>12</id>
+        <name>天然染料与普通转换洗机</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; getPreviousTask().getAttributeValue("天然染料").equals(getNextTask().getAttributeValue("天然染料"))</conditionString>
+      </NonproductionTask>
+      <NonproductionTask>
+        <id>13</id>
+        <name>预拉斜要求不同接导布</name>
+        <duration>10</duration>
+        <cost>10</cost>
+        <score>10</score>
+        <conditionString>getPreviousTask().getProcessCode().equals(getNextTask().getProcessCode()) &amp;&amp; ! getPreviousTask().getAttributeValue("练配方").equals(getNextTask().getAttributeValue("练配方"))</conditionString>
+      </NonproductionTask>
+    </nonproductionTasks>
+  </NonproductionTaskSet>
+</list>

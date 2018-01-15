@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- defined the message what using in system -->
+
+	<RemoteService>
+	<!-- 生产环境下载 -->
+		<name>DOWNLOAD_PlanningResult_production</name>
+		<link>http://getnt80.gfg1.esquel.com/APSGEW/Services/SystemService.asmx</link>
+		<entrance>SystemService</entrance>
+		<operation>DownLoadAndSaveOptaPlanner</operation>
+		<returnTag_Success>true</returnTag_Success>
+		<returnTag_Notify>isSuccess</returnTag_Notify>
+		<namespaceURI>http://tempuri.org/</namespaceURI>
+		<failureMessage>Planning result download failure!</failureMessage>
+		<successMessage>Planning result downloaded.</successMessage>
+		<parameters>
+			<WSParameter>
+				<name>fileCreateUploadConfigHdrValueType</name>
+				<value>KeyNameAndValueList</value>
+			</WSParameter>
+			<WSParameter>
+				<name>fileCreateUploadConfigHdrValue</name>
+				<value>OptaPlannerDataDownLoad</value>
+			</WSParameter>
+			<WSParameter>
+				<name>JobID</name>
+				<value>xxx</value>
+			</WSParameter>
+		</parameters>
+	</RemoteService>
+	<!-- Test环境下数据 -->
+	<RemoteService>
+		<name>DOWNLOAD_PlanningResult_test</name>
+		<link>http://devazure.esquel.cn/APSGEWDev/Services/SystemService.asmx</link>
+		<entrance>SystemService</entrance>
+		<operation>DownLoadAndSaveOptaPlanner</operation>
+		<returnTag_Success>true</returnTag_Success>
+		<returnTag_Notify>isSuccess</returnTag_Notify>
+		<namespaceURI>http://tempuri.org/</namespaceURI>
+		<failureMessage>Planning result download failure!</failureMessage>
+		<successMessage>Planning result downloaded.</successMessage>
+		<parameters>
+			<WSParameter>
+				<name>fileCreateUploadConfigHdrValueType</name>
+				<value>KeyNameAndValueList</value>
+			</WSParameter>
+			<WSParameter>
+				<name>fileCreateUploadConfigHdrValue</name>
+				<value>OptaPlannerDataDownLoad</value>
+			</WSParameter>
+			<WSParameter>
+				<name>JobID</name>
+				<value>xxx</value>
+			</WSParameter>
+
+		</parameters>
+	</RemoteService>
+	<!-- Test环境上传数 -->
+	<RemoteService>
+		<name>UPLOAD_DATA_test</name>
+		<link>http://devazure.esquel.cn/APSGEWDev/Services/SystemService.asmx</link>
+		<entrance>SystemService</entrance>
+		<operation>UploadAndRunOptaPlanner</operation>
+		<returnTag_Success>isSuccess</returnTag_Success>
+		<returnTag_Notify>string</returnTag_Notify>
+		<namespaceURI>http://tempuri.org/</namespaceURI>
+		<failureMessage>Update data failure!</failureMessage>
+		<successMessage>Data uploaded.</successMessage>
+		<parameters>
+			<WSParameter>
+				<name>fileCreateUploadConfigHdrValueType</name>
+				<value>KeyNameAndValueList</value>
+			</WSParameter>
+			<WSParameter>
+				<name>fileCreateUploadConfigHdrValue</name>
+				<value>OptaPlannerDataUploadLoad</value>
+			</WSParameter>
+		</parameters>
+	</RemoteService>
+
+	<!-- Test异常通知 -->
+	<!--  sample: http://devazure.esquel.cn/APSGEWDev/api/OptaPlanner/FailOptaplannerJob?JobID=xxx&remark=remark&opt=optaplanner -->
+	<RemoteService>
+		<name>EXCEPTION_NOTIFY</name>
+		<link>http://devazure.esquel.cn/APSGEWDev/api/OptaPlanner</link>
+		<entrance>SystemService</entrance>
+		<operation>FailOptaplannerJob</operation>
+		<returnTag_Success>:true</returnTag_Success>
+		<returnTag_Notify>isSuccess</returnTag_Notify>
+		<namespaceURI>http://tempuri.org/</namespaceURI>
+		<failureMessage>Failure to call notification !</failureMessage>
+		<successMessage>Notification sent.</successMessage>
+		<parameters>
+			<WSParameter>
+				<name>JobID</name>
+				<value>xxx</value>
+			</WSParameter>
+			<WSParameter>
+				<name>remark</name>
+				<value>xxx</value>
+			</WSParameter>
+			<WSParameter>
+				<name>opt</name>
+				<value>optaplanner</value>
+			</WSParameter>
+		</parameters>
+	</RemoteService>
+
+</list>

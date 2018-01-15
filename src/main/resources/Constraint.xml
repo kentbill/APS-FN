@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!--  规定任务开始时间需要在 -->
+	<Constraint>
+		<name>TaskPlanTimeRule-StartTime</name>
+		<scoreLevel>H</scoreLevel>
+		<score>-10</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>TaskPlanTimeRule-EndTime</name>
+		<scoreLevel>S</scoreLevel>
+		<score>-10</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>Task-Sequence</name>
+		<scoreLevel>H</scoreLevel>
+		<score>-30</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>Department-Checking</name>
+		<scoreLevel>H</scoreLevel>
+		<score>-20</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>MachinePlan-Task-Compare</name>
+		<scoreLevel>H</scoreLevel>
+		<score>-50</score>
+	</Constraint>
+
+	<Constraint>
+		<name>Minimize-Last-Task-StartTime</name>
+		<scoreLevel>S</scoreLevel>
+		<score>Variant</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>Minimize-TaskGap</name>
+		<scoreLevel>S</scoreLevel>
+		<score>Variant</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>Catch-Up-Delivery-Time</name>
+		<scoreLevel>S</scoreLevel>
+		<score>Variant</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>Minimize-NonproductionTasks</name>
+		<scoreLevel>S</scoreLevel>
+		<score>Variant</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>MachinePlan-Balance</name>
+		<scoreLevel>S</scoreLevel>
+		<score>Variant</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>First-Task-Early-Start</name>
+		<scoreLevel>S</scoreLevel>
+		<score>Variant</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>Minimze-makespan</name>
+		<scoreLevel>S</scoreLevel>
+		<score>Variant</score>
+	</Constraint>
+	
+	<Constraint>
+		<name>MachinePlan-First-Task</name>
+		<scoreLevel>H</scoreLevel>
+		<score>-20</score>
+	</Constraint>
+	<Constraint>
+		<name>All-Tasks-In_MachinePlan</name>
+		<scoreLevel>H</scoreLevel>
+		<score>-40</score>
+	</Constraint>
+	
+</list>

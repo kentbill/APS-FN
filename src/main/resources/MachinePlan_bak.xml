@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MachinePlan>
+    <id>1</id>
+    <machineCode>1</machineCode>
+    <department>FG</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>1</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>2</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>3</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>2</id>
+    <machineCode>2</machineCode>
+    <department>FG</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>4</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>5</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>6</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>3</id>
+    <machineCode>8</machineCode>
+    <department>FG</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>7</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>8</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>9</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>10</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>4</id>
+    <machineCode>9</machineCode>
+    <department>FG</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>11</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>13</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>14</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>5</id>
+    <machineCode>14</machineCode>
+    <department>FG</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>15</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>16</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>17</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>18</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>6</id>
+    <machineCode>15</machineCode>
+    <department>FG</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>19</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>20</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>21</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>22</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>7</id>
+    <machineCode>35</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>23</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>24</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>25</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>8</id>
+    <machineCode>36</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>26</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>27</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>28</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>9</id>
+    <machineCode>37</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>29</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>30</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>31</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>32</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>10</id>
+    <machineCode>38</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>33</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>34</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>35</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>36</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>11</id>
+    <machineCode>39</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>37</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>38</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>39</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>40</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>12</id>
+    <machineCode>40</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>41</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("")  &amp;&amp;  (getTask().getAttributeValue("碱浓").indexOf("20") !=-1 || getTask().getAttributeValue("碱浓").indexOf("14") !=-1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>42</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("")  &amp;&amp;  (getTask().getAttributeValue("碱浓").indexOf("20") !=-1 || getTask().getAttributeValue("碱浓").indexOf("14") !=-1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>43</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("")  &amp;&amp;  (getTask().getAttributeValue("碱浓").indexOf("20") !=-1 || getTask().getAttributeValue("碱浓").indexOf("14") !=-1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>44</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("")  &amp;&amp;  (getTask().getAttributeValue("碱浓").indexOf("20") !=-1 || getTask().getAttributeValue("碱浓").indexOf("14") !=-1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>13</id>
+    <machineCode>51</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>45</id>
+        <code>066</code>
+        <name>液氨丝光</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>14</id>
+    <machineCode>52</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>46</id>
+        <code>006</code>
+        <name>练漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>47</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>48</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>49</id>
+        <code>095</code>
+        <name>冷轧堆退浆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>50</id>
+        <code>096</code>
+        <name>退浆煮练</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>51</id>
+        <code>097</code>
+        <name>CPB练漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>52</id>
+        <code>105</code>
+        <name>练漂机回漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>15</id>
+    <machineCode>65</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>53</id>
+        <code>066</code>
+        <name>液氨丝光</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>16</id>
+    <machineCode>67</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>54</id>
+        <code>006</code>
+        <name>练漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>55</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>56</id>
+        <code>092</code>
+        <name>CPB退练漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>57</id>
+        <code>093</code>
+        <name>退浆机回漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>58</id>
+        <code>095</code>
+        <name>冷轧堆退浆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>59</id>
+        <code>096</code>
+        <name>退浆煮练</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>60</id>
+        <code>097</code>
+        <name>CPB练漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>61</id>
+        <code>106</code>
+        <name>退浆机汽蒸</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>62</id>
+        <code>109</code>
+        <name>剥色</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>63</id>
+        <code>129</code>
+        <name>冷堆水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>64</id>
+        <code>135</code>
+        <name>CPB特殊练漂</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>65</id>
+        <code>155</code>
+        <name>酶洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("本白") </conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>17</id>
+    <machineCode>69</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>66</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("")  &amp;&amp;  (getTask().getAttributeValue("碱浓").indexOf("24") !=-1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>67</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("")  &amp;&amp;  (getTask().getAttributeValue("碱浓").indexOf("24") !=-1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>68</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("")  &amp;&amp;  (getTask().getAttributeValue("碱浓").indexOf("24") !=-1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>69</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("加白","特白","少荧")  &amp;&amp; getTask().getAttributeValue("TQOR") in ("")  &amp;&amp;  (getTask().getAttributeValue("碱浓").indexOf("24") !=-1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>18</id>
+    <machineCode>77</machineCode>
+    <department>FA</department>
+    <startTime>2017-08-09 11:18:08</startTime>
+    <endTime>2017-08-19 11:18:08</endTime>
+    <processes />
+  </MachinePlan>
+</list>

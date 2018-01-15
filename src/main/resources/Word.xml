@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!--  defined the message what using in system -->
+
+	<Word>
+		<key>Pre_Assert</key>
+		<word_ENG>Assertion before planning</word_ENG>
+		<word_CHN>[预判断结果]</word_CHN>
+	</Word>
+
+
+	<Word>
+		<key>Invalid_Task</key>
+		<word_ENG>Invalid task information</word_ENG>
+		<word_CHN>任务基础数据不完整</word_CHN>
+	</Word>
+	
+	<Word>
+		<key>MachinePlan_Process_Not_Exist</key>
+		<word_ENG>Usable machine plan not exist</word_ENG>
+		<word_CHN>不存在可处理此工序的机台计划</word_CHN>
+	</Word>
+	
+	<Word>
+		<key>MachinePlan_Process_Condition_Not_Match</key>
+		<word_ENG>Usable machine plan not exist</word_ENG>
+		<word_CHN>不存在符合任务工序参数的机台计划</word_CHN>
+	</Word>
+	
+	<Word>
+		<key>Department_Not_Exist</key>
+		<word_ENG>The department of task and machine plan not match</word_ENG>
+		<word_CHN>不存在指定部门的机台（其它条件符合)</word_CHN>
+	</Word>
+
+	<Word>
+		<key>Invalid_Idle_Time</key>
+		<word_ENG>the idle time of task invalid</word_ENG>
+		<word_CHN>最大等待时间小于最小等待时间</word_CHN>
+	</Word>
+	
+	<Word>
+		<key>Unknow_Reason</key>
+		<word_ENG>Unkonw reason</word_ENG>
+		<word_CHN>未知原因</word_CHN>
+	</Word>
+	
+	<Word>
+		<key>Broke_Rule_Wrong_Machine_Plan</key>
+		<word_ENG>The task was assigned to the wrong machine plan</word_ENG>
+		<word_CHN>Planning过程中违反违约束，被分配到错误的机台</word_CHN>
+	</Word>
+	
+	<Word>
+		<key>Broke_Rule_Violate_Process_Sequence</key>
+		<word_ENG>the tasks sequence is violate in a same lot</word_ENG>
+		<word_CHN>Planning过程中违反违约束，同一批次中，相轮两任务的加工次序颠倒</word_CHN>
+	</Word>
+	<Word>
+		<key>Broke_Rule_Task_Not_In_MachinePlan</key>
+		<word_ENG>the tasks was not in the start time and end time of machine plan</word_ENG>
+		<word_CHN>Planning过程中违反违约束，开始与结束时间被排成机台计划的可用时间段以外</word_CHN>
+	</Word>
+	<Word>
+		<key>Broke_Rule_Not_Source_Task_As_First_MachinePlan</key>
+		<word_ENG>The first task in a machine plan is not the first task of a lot</word_ENG>
+		<word_CHN>Planning过程中违反违约束，机台计划的首个任务不是批次的首个任务</word_CHN>
+	</Word>
+	<Word>
+		<key>Broke_For_Invalid_Non_Source_Task_Arrival_Time_Not_Empty</key>
+		<word_ENG>The non-source task in lot has a arrival time(shouldn't have)</word_ENG>
+		<word_CHN>批次的非首个任务其到达时间非空</word_CHN>
+	</Word>
+	<Word>
+		<key>Broke_Rule_Uninitialized</key>
+		<word_ENG>The tasks was not initialized by planner</word_ENG>
+		<word_CHN>任务未被分配到任何机台</word_CHN>
+	</Word>
+	<Word>
+		<key>Broke_For_Invalid_Task_Attribute_Duplicate</key>
+		<word_ENG>The arribute names are duplicate</word_ENG>
+		<word_CHN>任务存在多于一个相同的属性名称</word_CHN>
+	</Word>
+	<Word>
+		<key>Broke_For_Invalid_Task_Arrival_Time</key>
+		<word_ENG>The arrival time invalid</word_ENG>
+		<word_CHN>任务的预计到达时间不正确</word_CHN>
+	</Word>
+</list>

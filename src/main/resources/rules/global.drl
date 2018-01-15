@@ -1,0 +1,169 @@
+/**
+本规则偏重成本优先
+**/
+
+package com.esquel.APS.GEW_FN.configuration;
+
+
+import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreHolder;
+import com.esquel.APS.GEW_FN.domain.Task;
+import com.esquel.APS.GEW_FN.domain.MachinePlan;
+import com.esquel.APS.GEW_FN.solver.interactor.NonproductionAssertionInteractor;
+import com.esquel.APS.GEW_FN.solver.interactor.TaskMachinePlanAssertionInteractor;
+import com.esquel.APS.GEW_FN.domain.enums.RuleDefinition;
+import com.esquel.APS.GEW_FN.domain.enums.TaskMachinePlanBrokenType;
+import com.esquel.APS.GEW_FN.domain.enums.TaskType_Location_In_Lot;
+import com.esquel.APS.Helpers.Common;
+
+//Score Holder for OptaPlanner
+global HardMediumSoftLongScoreHolder scoreHolder;
+dialect "java"
+// ############################################################################
+// Hard constraints
+// ############################################################################
+
+
+// 对比Task的要求及MachinePlan可提供的服务参数，只有全部符合，才能排进指定的MachinePlan
+rule "MachinePlan Task Compare"
+when
+	Task($machinePlan : machinePlan != null, (!(usableMachinePlan contains $machinePlan)))
+then
+	//System.out.println("MachinePlan-Task-Compare:" + 100009 );
+	scoreHolder.addHardConstraintMatch(kcontext, -100009L);
+end
+
+// 检查同一批的两个相邻任务的开始与结果时间是否存倒序的问题
+rule "Task Sequence"
+when
+	$task : Task(planStartTimeL != null,
+		planStartTimeL != 0L,
+	 	previousTaskInSameLot != null, 
+ 		machinePlan != null,  
+	 	previousTaskInSameLot.getPlanEndTimeL() > planStartTimeL)
+then
+//	System.out.println("Task Sequence:" + ($task.getPlanStartTimeL() - $task.getPreviousTaskInSameLot().getPlanEndTimeL()));
+	scoreHolder.addHardConstraintMatch(kcontext, ($task.getPlanStartTimeL() - $task.getPreviousTaskInSameLot().getPlanEndTimeL()));
+end
+
+rule "Match arrival time"
+when 
+	$task : Task(planStartTimeL != null, planStartTimeL > 0L, arrivalTimeL != null, arrivalTimeL > 0L , planStartTimeL < arrivalTimeL)
+then
+//	System.out.println("Match arrival time:" + $task.getPlanStartTimeL() + "|" + $task.getArrivalTimeL());
+	scoreHolder.addHardConstraintMatch(kcontext, $task.getPlanStartTimeL() - $task.getArrivalTimeL());
+end
+
+
+rule "Task-Overlap"
+when
+	Task(machinePlan != null, planStartTimeL != null, planStartTimeL > 0L, $score : timeOverlap() > 0)
+then
+//	System.out.println("Task-Overlap" + $score);
+	scoreHolder.addHardConstraintMatch(kcontext, - $score);
+end
+
+/*
+// 集中加工原则, 实现方式为，尽量靠近当前班次的结束时间
+rule "Batch-production" // as late as possible
+when
+	Task (planStartTimeL != null, planStartTimeL > 0L, $score : getClostToShiftEndSocre() < 0L)
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, $score);
+end
+*/
+
+// 让每个机台的最后一个任务的结束时间尽量小, 以机台的最后一个任务的结束时间作为判断条件
+/*
+rule "Minimze-makespan"
+when
+	$task : Task($machinePlan : machinePlan != null, previousStep != null, getPlanEndTimeL() != null )
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, $machinePlan.getStartTimeL() - $task.getPlanEndTimeL());
+end
+*/
+
+/*
+// 当量为0-1000的试样，安排在0-1000的当量段做，1000以上的试样，安排在1001-40000当量的机台上做。
+rule "BulkTest dosage factor mapping"
+when 
+	$task : Task(
+		taskOrderType == "BulkTest", 
+		previousStep != null, 
+		previousStep instanceof Task,
+		getAttributeValue("Dosage_Factor") != null, 
+		getAttributeValue("Dosage_Factor") != "",   
+		previousStep.getAttributeValue("Dosage_Factor") != null,
+		previousStep.getAttributeValue("Dosage_Factor") != "",
+		$currentDosage : Integer.parseInt(getAttributeValue("Dosage_Factor")) <= 1000 , 
+		$preDosage : Integer.parseInt(((Task)previousStep).getAttributeValue("Dosage_Factor")) > 1000 )
+then
+//	System.out.println("Dosage-mapping:$currentDosage");
+	scoreHolder.addHardConstraintMatch(kcontext, $currentDosage  -  $preDosage);
+end
+*/
+
+
+/*
+// ############################################################################
+// Soft constraints
+// ############################################################################
+
+// 让每个机台的最后一个任务的结束时间尽量小, 以机台的最后一个任务的结束时间作为判断条件
+rule "Minimze-makespan"
+when
+	$task : Task($machinePlan : machinePlan != null, previousStep != null, getPlanEndTimeL() != null )
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, $machinePlan.getStartTimeL() - $task.getPlanEndTimeL());
+end
+
+
+rule "Catch-Up-Delivery-Time" 
+//salience 10
+when
+	//Task((getMachinePlan() != null) && (getPlanStartTime() != null) && ($score : getScore(RuleDefinition.DELIVERY_TIME) > 0))
+	Task(getPlanEndTimeL() != 0L, 
+		deliveryTimeL != null, 
+		deliveryTimeL != 0L,  
+		getPlanEndTimeL() > deliveryTimeL,
+		$score : (getPlanEndTimeL() - deliveryTimeL)
+	) 
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, $score);
+end
+
+
+// Minimize task delay
+rule "Minimize-task-delay"
+when
+	Task(previousStep != null, $score : getDelayL())
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, -$score);
+end
+
+
+// Check if the task can finish before taskRequestFinishTime field value define.
+rule "Task-Finished-On-Time"
+when
+	Task(machinePlan != null, 
+			planStartTimeL != null, 
+			planStartTimeL != 0L, 
+			taskRequestFinishTimeL != null,
+			taskRequestFinishTimeL != 0L, 
+			arrivalTimeL != null, arrivalTimeL != 0L, 
+			arrivalTimeL < taskRequestFinishTimeL, // 仅对到达时间与要求完成时间合理的任务（到达时间较要求完成 时间早）的任务适用
+			planStartTimeL > taskRequestFinishTimeL, 
+	$score : (planStartTimeL - taskRequestFinishTimeL))
+	
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, -$score);
+end
+
+
+rule "Minimize-NonproductionTasks"
+when
+	Task(machinePlan != null, nonproductionScore != null, nonproductionScore != 0L, $score : getNonproductionScore())
+	
+then
+	scoreHolder.addMediumConstraintMatch(kcontext, -$score);
+end
+*/

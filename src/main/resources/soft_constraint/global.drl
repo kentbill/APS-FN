@@ -1,0 +1,161 @@
+package com.esquel.APS.GEW_FN.configuration;
+
+import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
+//import com.esquel.APS.GEW_FN.domain.Task;
+//import com.esquel.APS.GEW_FN.domain.MachinePlan;
+//import com.esquel.APS.Helpers.Common;
+
+import com.esquel.APS.GEW_FN.domain.Task;
+import com.esquel.APS.GEW_FN.domain.MachinePlan;
+import com.esquel.APS.GEW_FN.solver.interactor.NonproductionAssertionInteractor;
+import com.esquel.APS.GEW_FN.solver.interactor.TaskMachinePlanAssertionInteractor;
+import com.esquel.APS.GEW_FN.domain.enums.RuleDefinition;
+import com.esquel.APS.GEW_FN.domain.enums.TaskMachinePlanBrokenType;
+
+//import com.esquel.APS.GEW_FN.domain.MachinePlanEvaluation;
+
+//Score Holder for OptaPlanner
+global HardSoftScoreHolder scoreHolder;
+
+// ############################################################################
+// Hard constraints
+// ############################################################################
+
+/*
+rule "test"
+	salience 100
+when
+	$
+then 
+	MachinePlan(updateTasksTime());
+end
+*/
+
+
+// 对比Task的要求及MachinePlan可提供的服务参数，只有全部符合，才能排进指定的MachinePlan
+rule "MachinePlan-Task-Compare"
+salience 20
+when
+	Task(getMachinePlan() != null && assignedToFeasibleMachinePlan(false) == false)
+then
+	scoreHolder.addHardConstraintMatch(kcontext, -50);
+end
+
+
+/*
+// 检查同一批的两个相邻任务的开始与结果时间是否存倒序的问题
+rule "Task-Sequence"
+salience 18
+when
+	Task(getPrivousTaskInSameLot() != null && getScore(RuleDefinition.TASK_SEQUENCE_IN_SAME_LOT) > 0)
+then
+	scoreHolder.addHardConstraintMatch(kcontext, -30);
+end
+
+rule "All-Tasks-In_MachinePlan"
+salience 16
+when
+	Task((getMachinePlan() != null) && (getPlanStartTime() != null) && getScore(RuleDefinition.ALL_TASK_IN_MACHINE_PLAN) == 1)
+then
+	scoreHolder.addHardConstraintMatch(kcontext, -40);
+end
+
+// 确保机台计划的第一个任务，必须是一个批次中的首个任务，即机台计划的首个任务，必须是有ArrivalTime的
+rule "MachinePlan-First-Task"
+salience 14
+when
+	MachinePlan((getTasks() != null) && (!getTasks().isEmpty()) && invalidFirstTask())
+then
+	scoreHolder.addHardConstraintMatch(kcontext, -20);
+end
+
+*/
+
+
+
+/*
+// 从同批次及机台两个链中，防止 出现死循环的方案
+rule "Avoid-Dead-Loop-Tasks-Solution"
+salience 9
+when
+	Task((getMachinePlan() != null) && (getPlanStartTime() != null) && getScore(RuleDefinition.AVOID_DEAD_LOOP) > 0)
+then
+	scoreHolder.addHardConstraintMatch(kcontext, -1004);
+end
+*/
+
+/*
+// 为了防止出现不合理的顺序，当一个批次中，同一个工序出现两次以上时，这丙个工序必须
+rule "Multiple-Process"
+when
+	Task((getMachinePlan() != null) && (getPlanStartTime() != null) && getScore(RuleDefinition.REPEAT_PROCESS_SEQ) > 0)
+then
+	scoreHolder.addHardConstraintMatch(kcontext, -10002);
+end
+*/
+
+// ############################################################################
+// Soft constraints
+// ############################################################################
+
+
+/*
+// 让每个机台的最后一个任务的结束时间尽量小, 以机台的最后一个任务的结束时间作为判断条件
+rule "Minimze-makespan"
+salience 6
+when
+	//Task(getMachinePlan() != null && isSinkTask() && $endTime : getEndTimeInMinute())
+	Task(getMachinePlan() != null && $endTime : getEndTimeInMinute())
+then
+//	System.out.println("Minimze-makespan: -" + $lastTaskEndTime);
+	scoreHolder.addSoftConstraintMatch(kcontext, -($endTime * $endTime));
+end
+
+
+
+
+rule "Catch-Up-Delivery-Time" 
+salience 10
+when
+	Task((getMachinePlan() != null) && (getPlanStartTime() != null) && ($score : getScore(RuleDefinition.DELIVERY_TIME) > 0)) 
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, -$score);
+end
+
+
+
+// Check if the task can finih before taskRequestFinishTime field value define.
+rule "Task-Finished-On-Time"
+salience 9
+when
+	Task((getMachinePlan() != null) && (getPlanStartTime() != null) && ($score : getScore(RuleDefinition.CATCH_TASK_FIHISH_TIME) > 0)) 
+	
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, -$score);
+end
+
+*/
+
+/*
+// 计算每个非生产任务的分值
+rule "Minimize-NonproductionTasks"
+salience 8
+when
+	Task(getMachinePlan() != null && getNonProductionTaskList() != null && (!getNonProductionTaskList().isEmpty()) && ($score : getScore(RuleDefinition.MINIMIZE_NONPRODUCTION_TASK) > 0))
+	
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, -$score);
+end
+*/
+
+rule "Minimize-NonproductionTasks"
+salience 8
+when
+	Task(getMachinePlan() != null && ($score : getNonproductionScore()))
+	
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, -$score);
+end
+
+
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+	<environmentMode>FAST_ASSERT</environmentMode>
+	<!--  <environmentMode>FULL_ASSERT</environmentMode>  -->
+
+	<solutionClass>com.esquel.APS.GEW_FN.domain.TaskAssignmentSolution</solutionClass>
+	<entityClass>com.esquel.APS.GEW_FN.domain.Task</entityClass>
+	<entityClass>com.esquel.APS.GEW_FN.domain.Step</entityClass>
+
+	<scoreDirectorFactory>
+		<!-- 6.5.0 -> 7.2.0 <scoreDefinitionType>HARD_SOFT</scoreDefinitionType> -->
+
+		<!--<easyScoreCalculatorClass>org.optaplanner.examples.vehiclerouting.solver.score.VehicleRoutingEasyScoreCalculator</easyScoreCalculatorClass> -->
+		<!--<incrementalScoreCalculatorClass>org.optaplanner.examples.vehiclerouting.solver.score.VehicleRoutingIncrementalScoreCalculator</incrementalScoreCalculatorClass> -->
+		<scoreDrl>global.drl</scoreDrl>
+		<!-- <scoreDrl>GEWFNScoreRules.xls</scoreDrl> -->
+		<!--<assertionScoreDirectorFactory> -->
+		<!--</assertionScoreDirectorFactory> -->
+		<initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
+	</scoreDirectorFactory>
+
+	<termination>
+		<terminationCompositionStyle>OR</terminationCompositionStyle>
+		<minutesSpentLimit>2</minutesSpentLimit>
+		<bestScoreLimit>0hard/0soft</bestScoreLimit>
+	</termination>
+
+<!--
+	<customPhase>
+		<customPhaseCommandClass>com.esquel.APS.GEW_FN.solver.TaskAssignmentSolutionPreinitializer</customPhaseCommandClass>
+		  <forceUpdateBestSolution>true</forceUpdateBestSolution>   
+	</customPhase>
+-->
+	<constructionHeuristic>
+		<constructionHeuristicType>FIRST_FIT_DECREASING</constructionHeuristicType>
+
+<!-- 
+		<unionMoveSelector>
+	 -->
+	 	
+		<!--
+			<tailChainSwapMoveSelector>
+				<entitySelector>
+					<entityClass>com.esquel.APS.GEW_FN.domain.Task</entityClass>
+				</entitySelector>
+			</tailChainSwapMoveSelector>
+
+			  <swapMoveSelector>com.esquel.APS.GEW_FN.solver.MovableTaskSelectionFilter</swapMoveSelector>  
+	
+
+			<changeMoveSelector>
+				<valueSelector>
+					<filterClass>com.esquel.APS.GEW_FN.solver.MachinePlanSelectionFilter</filterClass>
+				</valueSelector>
+			</changeMoveSelector>
+			-->
+			
+		<!-- 	
+		</unionMoveSelector>
+		 -->
+	</constructionHeuristic>
+
+	<localSearch>
+		<unionMoveSelector>
+			<tailChainSwapMoveSelector>
+				<entitySelector>
+					<entityClass>com.esquel.APS.GEW_FN.domain.Task</entityClass>
+				</entitySelector>
+			</tailChainSwapMoveSelector>
+
+			<swapMoveSelector>com.esquel.APS.GEW_FN.solver.MovableTaskSelectionFilter</swapMoveSelector>
+
+			<changeMoveSelector>
+				<valueSelector>
+					<filterClass>com.esquel.APS.GEW_FN.solver.MachinePlanSelectionFilter</filterClass>
+				</valueSelector>
+			</changeMoveSelector>
+
+			<subChainChangeMoveSelector>
+				<!-- <entitySelector> <entityClass>com.esquel.APS.GEW_FN.domain.Task</entityClass> 
+					</entitySelector> <valueSelector variableName="previousStep"> -->
+				<selectReversingMoveToo>true</selectReversingMoveToo>
+
+			</subChainChangeMoveSelector>
+			<subChainSwapMoveSelector>
+				<selectReversingMoveToo>true</selectReversingMoveToo>
+			</subChainSwapMoveSelector>
+
+
+		</unionMoveSelector>
+		<acceptor>
+			<lateAcceptanceSize>200</lateAcceptanceSize>
+		</acceptor>
+		<forager>
+			<acceptedCountLimit>1</acceptedCountLimit>
+		</forager>
+	</localSearch>
+
+</solver>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MachinePlan>
+    <id>1</id>
+    <machineCode>1</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2017-08-18 13:00:09</startTime>
+    <endTime>2017-08-28 13:00:09</endTime>
+    <processes>
+      <MachinePlanProcess>
+        <id>1</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>2</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>3</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getAttributeValue("WHITE_TYPE") in ("漂白","本白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+
+  </MachinePlan>
+ 
+</list>

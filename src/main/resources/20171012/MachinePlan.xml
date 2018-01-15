@@ -1,0 +1,2030 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MachinePlan>
+    <id>154</id>
+    <machineCode>1</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-SG01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622792</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623466</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("111") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白"))</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623496</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getProcessCode() in ("114") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白"))</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>164</id>
+    <machineCode>2</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2023-05-21 00:00:00</endTime>
+    <machineNO>FG-SG02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622788</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623472</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("111") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白"))</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623492</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getProcessCode() in ("114") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白"))</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>166</id>
+    <machineCode>3</machineCode>
+    <department>FG</department>
+    <machineType>BL</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2017-10-12 14:09:36</endTime>
+    <machineNO>FG-BL01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622768</id>
+        <code>006</code>
+        <name>练漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("006") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") ) &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>167</id>
+    <machineCode>3</machineCode>
+    <department>FG</department>
+    <machineType>BL</machineType>
+    <startTime>2017-10-12 14:09:36</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-BL01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622805</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622815</id>
+        <code>006</code>
+        <name>练漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("006") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623009</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623418</id>
+        <code>095</code>
+        <name>冷轧堆退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("095") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623420</id>
+        <code>096</code>
+        <name>退浆煮练</name>
+        <conditionExpression>getTask().getProcessCode() in ("096") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623428</id>
+        <code>097</code>
+        <name>CPB练漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("097") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623449</id>
+        <code>105</code>
+        <name>练漂机回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("105") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>168</id>
+    <machineCode>4</machineCode>
+    <department>FG</department>
+    <machineType>CL</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-CL02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622992</id>
+        <code>035</code>
+        <name>轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("035") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623116</id>
+        <code>004</code>
+        <name>放布</name>
+        <conditionExpression>getTask().getProcessCode() in ("004") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623364</id>
+        <code>080</code>
+        <name>ET轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("080") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623365</id>
+        <code>081</code>
+        <name>SFW轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("081") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>170</id>
+    <machineCode>6</machineCode>
+    <department>FG</department>
+    <machineType>CP</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-CP01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622890</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622999</id>
+        <code>008</code>
+        <name>预缩</name>
+        <conditionExpression>getTask().getProcessCode() in ("008") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623083</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623313</id>
+        <code>014</code>
+        <name>预缩-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("014") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623385</id>
+        <code>088</code>
+        <name>CPB染色</name>
+        <conditionExpression>getTask().getProcessCode() in ("088") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623397</id>
+        <code>089</code>
+        <name>CPB水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("089") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623406</id>
+        <code>090</code>
+        <name>CPB水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("090") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623444</id>
+        <code>104</code>
+        <name>热压</name>
+        <conditionExpression>getTask().getProcessCode() in ("104") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623461</id>
+        <code>110</code>
+        <name>预缩-E</name>
+        <conditionExpression>getTask().getProcessCode() in ("110") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623573</id>
+        <code>129</code>
+        <name>冷堆水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("129") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623602</id>
+        <code>132</code>
+        <name>磨后缝头</name>
+        <conditionExpression>getTask().getProcessCode() in ("132") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>171</id>
+    <machineCode>7</machineCode>
+    <department>FG</department>
+    <machineType>CP</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-CP02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622891</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623000</id>
+        <code>008</code>
+        <name>预缩</name>
+        <conditionExpression>getTask().getProcessCode() in ("008") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623082</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623314</id>
+        <code>014</code>
+        <name>预缩-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("014") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623386</id>
+        <code>088</code>
+        <name>CPB染色</name>
+        <conditionExpression>getTask().getProcessCode() in ("088") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623396</id>
+        <code>089</code>
+        <name>CPB水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("089") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623407</id>
+        <code>090</code>
+        <name>CPB水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("090") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623443</id>
+        <code>104</code>
+        <name>热压</name>
+        <conditionExpression>getTask().getProcessCode() in ("104") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623462</id>
+        <code>110</code>
+        <name>预缩-E</name>
+        <conditionExpression>getTask().getProcessCode() in ("110") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623572</id>
+        <code>129</code>
+        <name>冷堆水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("129") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623603</id>
+        <code>132</code>
+        <name>磨后缝头</name>
+        <conditionExpression>getTask().getProcessCode() in ("132") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>176</id>
+    <machineCode>8</machineCode>
+    <department>FG</department>
+    <machineType>DS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-DS01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622808</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622886</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623171</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("065") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623264</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("030") &amp;&amp;  getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") </conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>181</id>
+    <machineCode>9</machineCode>
+    <department>FG</department>
+    <machineType>DS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-DS02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622811</id>
+        <code>010</code>
+        <name>退浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("010") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622889</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") </conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623168</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("065") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623261</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("030") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>182</id>
+    <machineCode>10</machineCode>
+    <department>FG</department>
+    <machineType>ST</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-ST01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622835</id>
+        <code>045</code>
+        <name>潮交联定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("045") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622918</id>
+        <code>011</code>
+        <name>干布定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("011") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622931</id>
+        <code>002</code>
+        <name>磨前定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("002") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622948</id>
+        <code>025</code>
+        <name>定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("025") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622962</id>
+        <code>056</code>
+        <name>定型加白</name>
+        <conditionExpression>getTask().getProcessCode() in ("056") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622971</id>
+        <code>059</code>
+        <name>定型加色</name>
+        <conditionExpression>getTask().getProcessCode() in ("059") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622986</id>
+        <code>001</code>
+        <name>过酸</name>
+        <conditionExpression>getTask().getProcessCode() in ("001") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623022</id>
+        <code>054</code>
+        <name>预柔软</name>
+        <conditionExpression>getTask().getProcessCode() in ("054") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623126</id>
+        <code>019</code>
+        <name>树脂定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("019") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623135</id>
+        <code>020</code>
+        <name>拉幅定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("020") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623346</id>
+        <code>079</code>
+        <name>干定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("079") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623351</id>
+        <code>078</code>
+        <name>湿定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("078") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623374</id>
+        <code>086</code>
+        <name>轻树脂</name>
+        <conditionExpression>getTask().getProcessCode() in ("086") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623535</id>
+        <code>122</code>
+        <name>EDP定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("122") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623548</id>
+        <code>125</code>
+        <name>CPB加白</name>
+        <conditionExpression>getTask().getProcessCode() in ("125") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623553</id>
+        <code>126</code>
+        <name>CPB加白烘干</name>
+        <conditionExpression>getTask().getProcessCode() in ("126") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623590</id>
+        <code>130</code>
+        <name>泡沫定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("130") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623614</id>
+        <code>133</code>
+        <name>湿布烘干</name>
+        <conditionExpression>getTask().getProcessCode() in ("133") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623629</id>
+        <code>138</code>
+        <name>SAP</name>
+        <conditionExpression>getTask().getProcessCode() in ("138") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623667</id>
+        <code>144</code>
+        <name>水晶定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("144") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623678</id>
+        <code>146</code>
+        <name>汽蒸固色</name>
+        <conditionExpression>getTask().getProcessCode() in ("146") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623692</id>
+        <code>148</code>
+        <name>定型上浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("148") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623701</id>
+        <code>149</code>
+        <name>上料机预柔软</name>
+        <conditionExpression>getTask().getProcessCode() in ("149") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623719</id>
+        <code>153</code>
+        <name>CPB冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("153") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>183</id>
+    <machineCode>11</machineCode>
+    <department>FG</department>
+    <machineType>ST</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-ST02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622836</id>
+        <code>045</code>
+        <name>潮交联定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("045") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622919</id>
+        <code>011</code>
+        <name>干布定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("011") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622929</id>
+        <code>002</code>
+        <name>磨前定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("002") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622949</id>
+        <code>025</code>
+        <name>定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("025") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622960</id>
+        <code>056</code>
+        <name>定型加白</name>
+        <conditionExpression>getTask().getProcessCode() in ("056") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622973</id>
+        <code>059</code>
+        <name>定型加色</name>
+        <conditionExpression>getTask().getProcessCode() in ("059") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622985</id>
+        <code>001</code>
+        <name>过酸</name>
+        <conditionExpression>getTask().getProcessCode() in ("001") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623023</id>
+        <code>054</code>
+        <name>预柔软</name>
+        <conditionExpression>getTask().getProcessCode() in ("054") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623125</id>
+        <code>019</code>
+        <name>树脂定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("019") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623136</id>
+        <code>020</code>
+        <name>拉幅定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("020") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623348</id>
+        <code>079</code>
+        <name>干定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("079") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623349</id>
+        <code>078</code>
+        <name>湿定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("078") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623376</id>
+        <code>086</code>
+        <name>轻树脂</name>
+        <conditionExpression>getTask().getProcessCode() in ("086") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623533</id>
+        <code>122</code>
+        <name>EDP定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("122") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623550</id>
+        <code>125</code>
+        <name>CPB加白</name>
+        <conditionExpression>getTask().getProcessCode() in ("125") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623551</id>
+        <code>126</code>
+        <name>CPB加白烘干</name>
+        <conditionExpression>getTask().getProcessCode() in ("126") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623592</id>
+        <code>130</code>
+        <name>泡沫定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("130") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623612</id>
+        <code>133</code>
+        <name>湿布烘干</name>
+        <conditionExpression>getTask().getProcessCode() in ("133") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623631</id>
+        <code>138</code>
+        <name>SAP</name>
+        <conditionExpression>getTask().getProcessCode() in ("138") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623665</id>
+        <code>144</code>
+        <name>水晶定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("144") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623680</id>
+        <code>146</code>
+        <name>汽蒸固色</name>
+        <conditionExpression>getTask().getProcessCode() in ("146") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623690</id>
+        <code>148</code>
+        <name>定型上浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("148") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623703</id>
+        <code>149</code>
+        <name>上料机预柔软</name>
+        <conditionExpression>getTask().getProcessCode() in ("149") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623717</id>
+        <code>153</code>
+        <name>CPB冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("153") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>184</id>
+    <machineCode>12</machineCode>
+    <department>FG</department>
+    <machineType>ST</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-ST03</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622837</id>
+        <code>045</code>
+        <name>潮交联定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("045") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622920</id>
+        <code>011</code>
+        <name>干布定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("011") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622930</id>
+        <code>002</code>
+        <name>磨前定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("002") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622947</id>
+        <code>025</code>
+        <name>定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("025") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622961</id>
+        <code>056</code>
+        <name>定型加白</name>
+        <conditionExpression>getTask().getProcessCode() in ("056") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622972</id>
+        <code>059</code>
+        <name>定型加色</name>
+        <conditionExpression>getTask().getProcessCode() in ("059") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622984</id>
+        <code>001</code>
+        <name>过酸</name>
+        <conditionExpression>getTask().getProcessCode() in ("001") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623024</id>
+        <code>054</code>
+        <name>预柔软</name>
+        <conditionExpression>getTask().getProcessCode() in ("054") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623124</id>
+        <code>019</code>
+        <name>树脂定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("019") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623137</id>
+        <code>020</code>
+        <name>拉幅定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("020") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623347</id>
+        <code>079</code>
+        <name>干定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("079") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623350</id>
+        <code>078</code>
+        <name>湿定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("078") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623375</id>
+        <code>086</code>
+        <name>轻树脂</name>
+        <conditionExpression>getTask().getProcessCode() in ("086") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623534</id>
+        <code>122</code>
+        <name>EDP定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("122") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623549</id>
+        <code>125</code>
+        <name>CPB加白</name>
+        <conditionExpression>getTask().getProcessCode() in ("125") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623552</id>
+        <code>126</code>
+        <name>CPB加白烘干</name>
+        <conditionExpression>getTask().getProcessCode() in ("126") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623591</id>
+        <code>130</code>
+        <name>泡沫定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("130") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623613</id>
+        <code>133</code>
+        <name>湿布烘干</name>
+        <conditionExpression>getTask().getProcessCode() in ("133") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623630</id>
+        <code>138</code>
+        <name>SAP</name>
+        <conditionExpression>getTask().getProcessCode() in ("138") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623666</id>
+        <code>144</code>
+        <name>水晶定型</name>
+        <conditionExpression>getTask().getProcessCode() in ("144") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623679</id>
+        <code>146</code>
+        <name>汽蒸固色</name>
+        <conditionExpression>getTask().getProcessCode() in ("146") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623691</id>
+        <code>148</code>
+        <name>定型上浆</name>
+        <conditionExpression>getTask().getProcessCode() in ("148") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623702</id>
+        <code>149</code>
+        <name>上料机预柔软</name>
+        <conditionExpression>getTask().getProcessCode() in ("149") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623718</id>
+        <code>153</code>
+        <name>CPB冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("153") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>185</id>
+    <machineCode>13</machineCode>
+    <department>FG</department>
+    <machineType>DY</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-DY01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623110</id>
+        <code>033</code>
+        <name>松式水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("033") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623182</id>
+        <code>069</code>
+        <name>松式水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("069") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623197</id>
+        <code>070</code>
+        <name>松式水洗-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("070") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>194</id>
+    <machineCode>14</machineCode>
+    <department>FG</department>
+    <machineType>MC</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-MC01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622824</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622855</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("041") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622879</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623077</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013") &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>201</id>
+    <machineCode>15</machineCode>
+    <department>FG</department>
+    <machineType>MC</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-MC02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622828</id>
+        <code>016</code>
+        <name>丝光</name>
+        <conditionExpression>getTask().getProcessCode() in ("016") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622850</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("041")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622883</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白")</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623081</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白")</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>203</id>
+    <machineCode>17</machineCode>
+    <department>FG</department>
+    <machineType>WS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-WS01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622856</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("041") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622874</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622906</id>
+        <code>038</code>
+        <name>净洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("038") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623011</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623045</id>
+        <code>055</code>
+        <name>水煮</name>
+        <conditionExpression>getTask().getProcessCode() in ("055") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623052</id>
+        <code>052</code>
+        <name>煮洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("052") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623072</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623096</id>
+        <code>051</code>
+        <name>清洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("051") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623109</id>
+        <code>033</code>
+        <name>松式水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("033") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623162</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("065") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623186</id>
+        <code>069</code>
+        <name>松式水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("069") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623193</id>
+        <code>070</code>
+        <name>松式水洗-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("070") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623209</id>
+        <code>021</code>
+        <name>净洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("021") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623214</id>
+        <code>024</code>
+        <name>净洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("024") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623229</id>
+        <code>026</code>
+        <name>净洗-A1</name>
+        <conditionExpression>getTask().getProcessCode() in ("026") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623234</id>
+        <code>027</code>
+        <name>净洗-A2</name>
+        <conditionExpression>getTask().getProcessCode() in ("027") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623249</id>
+        <code>028</code>
+        <name>净洗-M1</name>
+        <conditionExpression>getTask().getProcessCode() in ("028") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623254</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("030") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623277</id>
+        <code>039</code>
+        <name>代水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("039") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623282</id>
+        <code>043</code>
+        <name>强水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("043") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623297</id>
+        <code>034</code>
+        <name>碱洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("034") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623302</id>
+        <code>037</code>
+        <name>碱洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("037") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623432</id>
+        <code>098</code>
+        <name>碱洗-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("098") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623497</id>
+        <code>115</code>
+        <name>回洗-E</name>
+        <conditionExpression>getTask().getProcessCode() in ("115") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623514</id>
+        <code>120</code>
+        <name>碱洗A</name>
+        <conditionExpression>getTask().getProcessCode() in ("120") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623515</id>
+        <code>121</code>
+        <name>碱洗B</name>
+        <conditionExpression>getTask().getProcessCode() in ("121") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623577</id>
+        <code>129</code>
+        <name>冷堆水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("129") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623639</id>
+        <code>139</code>
+        <name>碱洗C</name>
+        <conditionExpression>getTask().getProcessCode() in ("139") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623652</id>
+        <code>140</code>
+        <name>碱洗D</name>
+        <conditionExpression>getTask().getProcessCode() in ("140") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>204</id>
+    <machineCode>19</machineCode>
+    <department>FG</department>
+    <machineType>WS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-WS13</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622857</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("041") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622873</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622907</id>
+        <code>038</code>
+        <name>净洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("038") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623010</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623042</id>
+        <code>055</code>
+        <name>水煮</name>
+        <conditionExpression>getTask().getProcessCode() in ("055") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623053</id>
+        <code>052</code>
+        <name>煮洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("052") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623071</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623097</id>
+        <code>051</code>
+        <name>清洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("051") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623108</id>
+        <code>033</code>
+        <name>松式水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("033") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623164</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("065") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623184</id>
+        <code>069</code>
+        <name>松式水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("069") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623195</id>
+        <code>070</code>
+        <name>松式水洗-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("070") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623208</id>
+        <code>021</code>
+        <name>净洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("021") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623215</id>
+        <code>024</code>
+        <name>净洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("024") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623228</id>
+        <code>026</code>
+        <name>净洗-A1</name>
+        <conditionExpression>getTask().getProcessCode() in ("026") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623235</id>
+        <code>027</code>
+        <name>净洗-A2</name>
+        <conditionExpression>getTask().getProcessCode() in ("027") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623248</id>
+        <code>028</code>
+        <name>净洗-M1</name>
+        <conditionExpression>getTask().getProcessCode() in ("028") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623255</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("030") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623276</id>
+        <code>039</code>
+        <name>代水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("039") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623283</id>
+        <code>043</code>
+        <name>强水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("043") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623296</id>
+        <code>034</code>
+        <name>碱洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("034") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623303</id>
+        <code>037</code>
+        <name>碱洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("037") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623429</id>
+        <code>098</code>
+        <name>碱洗-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("098") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623500</id>
+        <code>115</code>
+        <name>回洗-E</name>
+        <conditionExpression>getTask().getProcessCode() in ("115") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623511</id>
+        <code>120</code>
+        <name>碱洗A</name>
+        <conditionExpression>getTask().getProcessCode() in ("120") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623518</id>
+        <code>121</code>
+        <name>碱洗B</name>
+        <conditionExpression>getTask().getProcessCode() in ("121") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623574</id>
+        <code>129</code>
+        <name>冷堆水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("129") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623642</id>
+        <code>139</code>
+        <name>碱洗C</name>
+        <conditionExpression>getTask().getProcessCode() in ("139") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623649</id>
+        <code>140</code>
+        <name>碱洗D</name>
+        <conditionExpression>getTask().getProcessCode() in ("140") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>206</id>
+    <machineCode>21</machineCode>
+    <department>FG</department>
+    <machineType>WS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-WS15</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622859</id>
+        <code>041</code>
+        <name>丝光洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("041") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622871</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622909</id>
+        <code>038</code>
+        <name>净洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("038") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623013</id>
+        <code>017</code>
+        <name>回漂</name>
+        <conditionExpression>getTask().getProcessCode() in ("017") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623044</id>
+        <code>055</code>
+        <name>水煮</name>
+        <conditionExpression>getTask().getProcessCode() in ("055") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623054</id>
+        <code>052</code>
+        <name>煮洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("052") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623068</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623098</id>
+        <code>051</code>
+        <name>清洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("051") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623107</id>
+        <code>033</code>
+        <name>松式水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("033") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623163</id>
+        <code>065</code>
+        <name>皂洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("065") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623185</id>
+        <code>069</code>
+        <name>松式水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("069") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623194</id>
+        <code>070</code>
+        <name>松式水洗-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("070") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623206</id>
+        <code>021</code>
+        <name>净洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("021") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623217</id>
+        <code>024</code>
+        <name>净洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("024") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623226</id>
+        <code>026</code>
+        <name>净洗-A1</name>
+        <conditionExpression>getTask().getProcessCode() in ("026") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623237</id>
+        <code>027</code>
+        <name>净洗-A2</name>
+        <conditionExpression>getTask().getProcessCode() in ("027") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623246</id>
+        <code>028</code>
+        <name>净洗-M1</name>
+        <conditionExpression>getTask().getProcessCode() in ("028") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623257</id>
+        <code>030</code>
+        <name>回洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("030") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623274</id>
+        <code>039</code>
+        <name>代水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("039") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623285</id>
+        <code>043</code>
+        <name>强水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("043") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623295</id>
+        <code>034</code>
+        <name>碱洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("034") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623304</id>
+        <code>037</code>
+        <name>碱洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("037") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623431</id>
+        <code>098</code>
+        <name>碱洗-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("098") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623498</id>
+        <code>115</code>
+        <name>回洗-E</name>
+        <conditionExpression>getTask().getProcessCode() in ("115") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623513</id>
+        <code>120</code>
+        <name>碱洗A</name>
+        <conditionExpression>getTask().getProcessCode() in ("120") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623516</id>
+        <code>121</code>
+        <name>碱洗B</name>
+        <conditionExpression>getTask().getProcessCode() in ("121") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623576</id>
+        <code>129</code>
+        <name>冷堆水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("129") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623640</id>
+        <code>139</code>
+        <name>碱洗C</name>
+        <conditionExpression>getTask().getProcessCode() in ("139") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623651</id>
+        <code>140</code>
+        <name>碱洗D</name>
+        <conditionExpression>getTask().getProcessCode() in ("140") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>208</id>
+    <machineCode>25</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-RS01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623035</id>
+        <code>049</code>
+        <name>起毛-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("049") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623323</id>
+        <code>048</code>
+        <name>起毛-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("048") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623324</id>
+        <code>071</code>
+        <name>起毛-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("071") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623624</id>
+        <code>136</code>
+        <name>起毛-4</name>
+        <conditionExpression>getTask().getProcessCode() in ("136") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623710</id>
+        <code>150</code>
+        <name>起毛-5</name>
+        <conditionExpression>getTask().getProcessCode() in ("150") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>209</id>
+    <machineCode>26</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-RS02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623033</id>
+        <code>049</code>
+        <name>起毛-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("049") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623321</id>
+        <code>048</code>
+        <name>起毛-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("048") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623326</id>
+        <code>071</code>
+        <name>起毛-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("071") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623622</id>
+        <code>136</code>
+        <name>起毛-4</name>
+        <conditionExpression>getTask().getProcessCode() in ("136") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623712</id>
+        <code>150</code>
+        <name>起毛-5</name>
+        <conditionExpression>getTask().getProcessCode() in ("150") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>210</id>
+    <machineCode>27</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-RS03</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623034</id>
+        <code>049</code>
+        <name>起毛-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("049") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623322</id>
+        <code>048</code>
+        <name>起毛-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("048") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623325</id>
+        <code>071</code>
+        <name>起毛-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("071") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623623</id>
+        <code>136</code>
+        <name>起毛-4</name>
+        <conditionExpression>getTask().getProcessCode() in ("136") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623711</id>
+        <code>150</code>
+        <name>起毛-5</name>
+        <conditionExpression>getTask().getProcessCode() in ("150") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>211</id>
+    <machineCode>28</machineCode>
+    <department>FG</department>
+    <machineType>SR</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-SR01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623038</id>
+        <code>046</code>
+        <name>剪毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("046") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623438</id>
+        <code>099</code>
+        <name>剪花</name>
+        <conditionExpression>getTask().getProcessCode() in ("099") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>212</id>
+    <machineCode>31</machineCode>
+    <department>FG</department>
+    <machineType>CP</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-CP03</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622899</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623001</id>
+        <code>008</code>
+        <name>预缩</name>
+        <conditionExpression>getTask().getProcessCode() in ("008") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623084</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623310</id>
+        <code>014</code>
+        <name>预缩-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("014") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623391</id>
+        <code>088</code>
+        <name>CPB染色</name>
+        <conditionExpression>getTask().getProcessCode() in ("088") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623392</id>
+        <code>089</code>
+        <name>CPB水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("089") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623411</id>
+        <code>090</code>
+        <name>CPB水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("090") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623439</id>
+        <code>104</code>
+        <name>热压</name>
+        <conditionExpression>getTask().getProcessCode() in ("104") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623460</id>
+        <code>110</code>
+        <name>预缩-E</name>
+        <conditionExpression>getTask().getProcessCode() in ("110") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623571</id>
+        <code>129</code>
+        <name>冷堆水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("129") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623601</id>
+        <code>132</code>
+        <name>磨后缝头</name>
+        <conditionExpression>getTask().getProcessCode() in ("132") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>213</id>
+    <machineCode>33</machineCode>
+    <department>FG</department>
+    <machineType>CL</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-CL01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622991</id>
+        <code>035</code>
+        <name>轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("035") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623115</id>
+        <code>004</code>
+        <name>放布</name>
+        <conditionExpression>getTask().getProcessCode() in ("004") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623362</id>
+        <code>080</code>
+        <name>ET轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("080") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623367</id>
+        <code>081</code>
+        <name>SFW轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("081") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>214</id>
+    <machineCode>34</machineCode>
+    <department>FG</department>
+    <machineType>DY</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-DY02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623111</id>
+        <code>033</code>
+        <name>松式水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("033") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623179</id>
+        <code>069</code>
+        <name>松式水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("069") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623200</id>
+        <code>070</code>
+        <name>松式水洗-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("070") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>247</id>
+    <machineCode>53</machineCode>
+    <department>FG</department>
+    <machineType>DH</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-DH01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623048</id>
+        <code>053</code>
+        <name>脱水</name>
+        <conditionExpression>getTask().getProcessCode() in ("053") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>265</id>
+    <machineCode>75</machineCode>
+    <department>FG</department>
+    <machineType>CL</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-CL03</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622994</id>
+        <code>035</code>
+        <name>轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("035") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623118</id>
+        <code>004</code>
+        <name>放布</name>
+        <conditionExpression>getTask().getProcessCode() in ("004") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623361</id>
+        <code>080</code>
+        <name>ET轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("080") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623368</id>
+        <code>081</code>
+        <name>SFW轧光</name>
+        <conditionExpression>getTask().getProcessCode() in ("081") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>266</id>
+    <machineCode>76</machineCode>
+    <department>FG</department>
+    <machineType>CP</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-CP04</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12622867</id>
+        <code>057</code>
+        <name>水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("057") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12622995</id>
+        <code>008</code>
+        <name>预缩</name>
+        <conditionExpression>getTask().getProcessCode() in ("008") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623065</id>
+        <code>013</code>
+        <name>酸洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("013") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623316</id>
+        <code>014</code>
+        <name>预缩-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("014") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623383</id>
+        <code>088</code>
+        <name>CPB染色</name>
+        <conditionExpression>getTask().getProcessCode() in ("088") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623399</id>
+        <code>089</code>
+        <name>CPB水洗-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("089") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623404</id>
+        <code>090</code>
+        <name>CPB水洗-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("090") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623446</id>
+        <code>104</code>
+        <name>热压</name>
+        <conditionExpression>getTask().getProcessCode() in ("104") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623455</id>
+        <code>110</code>
+        <name>预缩-E</name>
+        <conditionExpression>getTask().getProcessCode() in ("110") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623583</id>
+        <code>129</code>
+        <name>冷堆水洗</name>
+        <conditionExpression>getTask().getProcessCode() in ("129") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623605</id>
+        <code>132</code>
+        <name>磨后缝头</name>
+        <conditionExpression>getTask().getProcessCode() in ("132") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>274</id>
+    <machineCode>92</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-RS04</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623037</id>
+        <code>049</code>
+        <name>起毛-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("049") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623319</id>
+        <code>048</code>
+        <name>起毛-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("048") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623328</id>
+        <code>071</code>
+        <name>起毛-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("071") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623620</id>
+        <code>136</code>
+        <name>起毛-4</name>
+        <conditionExpression>getTask().getProcessCode() in ("136") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623708</id>
+        <code>150</code>
+        <name>起毛-5</name>
+        <conditionExpression>getTask().getProcessCode() in ("150") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>275</id>
+    <machineCode>93</machineCode>
+    <department>FG</department>
+    <machineType>CA</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-CA01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623540</id>
+        <code>125</code>
+        <name>CPB加白</name>
+        <conditionExpression>getTask().getProcessCode() in ("125") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623721</id>
+        <code>153</code>
+        <name>CPB冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("153") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>278</id>
+    <machineCode>96</machineCode>
+    <department>FG</department>
+    <machineType>RS</machineType>
+    <startTime>2017-10-12 12:05:59</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-RS05</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>12623036</id>
+        <code>049</code>
+        <name>起毛-1</name>
+        <conditionExpression>getTask().getProcessCode() in ("049") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623320</id>
+        <code>048</code>
+        <name>起毛-2</name>
+        <conditionExpression>getTask().getProcessCode() in ("048") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623327</id>
+        <code>071</code>
+        <name>起毛-3</name>
+        <conditionExpression>getTask().getProcessCode() in ("071") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623621</id>
+        <code>136</code>
+        <name>起毛-4</name>
+        <conditionExpression>getTask().getProcessCode() in ("136") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>12623709</id>
+        <code>150</code>
+        <name>起毛-5</name>
+        <conditionExpression>getTask().getProcessCode() in ("150") &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+</list>

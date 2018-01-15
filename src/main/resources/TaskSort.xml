@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!--  defined the message what using in system -->
+
+	<!-- 根据优先级从小到大排序 -->
+	<TaskSort>
+		<id>1</id>
+		<fieldName>priority</fieldName>
+		<sortMode>false</sortMode>
+	</TaskSort>
+	
+	<!-- 根据订单类型排序 -->
+	<!-- 
+	<TaskSort>
+		<id>2</id>
+		<fieldName>taskOrderType</fieldName>
+		<sortMode>false</sortMode>
+	</TaskSort>
+ 	-->
+ 
+<!-- 根据到达时间排序 -->
+	<TaskSort>
+		<id>2</id>
+		<fieldName>fn_DeliveryTimeL</fieldName>
+		<sortMode>true</sortMode>
+	</TaskSort>
+
+ 	
+</list>

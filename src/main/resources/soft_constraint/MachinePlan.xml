@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MachinePlan>
+    <id>1526061</id>
+    <machineCode>1</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2017-10-20 15:00:00</startTime>
+    <endTime>2021-01-01 00:00:00</endTime>
+    <machineNO>FG-SG01</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>13015127</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>13015822</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("111") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>13015840</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getProcessCode() in ("114") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("本白","漂白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1526068</id>
+    <machineCode>2</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2017-10-18 16:19:07</startTime>
+    <endTime>2017-10-19 10:00:00</endTime>
+    <machineNO>FG-SG02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>13015098</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") ) &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1526069</id>
+    <machineCode>2</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2017-10-20 10:00:00</startTime>
+    <endTime>2017-10-23 00:57:36</endTime>
+    <machineNO>FG-SG02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>13015099</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") ) &amp;&amp; (1==1)</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+  <MachinePlan>
+    <id>1526070</id>
+    <machineCode>2</machineCode>
+    <department>FG</department>
+    <machineType>SG</machineType>
+    <startTime>2017-10-23 00:57:36</startTime>
+    <endTime>2023-05-21 00:00:00</endTime>
+    <machineNO>FG-SG02</machineNO>
+    <processes>
+      <MachinePlanProcess>
+        <id>13015132</id>
+        <code>023</code>
+        <name>烧毛</name>
+        <conditionExpression>getTask().getProcessCode() in ("023") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>13015818</id>
+        <code>111</code>
+        <name>烧毛冷堆</name>
+        <conditionExpression>getTask().getProcessCode() in ("111") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+      <MachinePlanProcess>
+        <id>13015845</id>
+        <code>114</code>
+        <name>烧毛湿落布</name>
+        <conditionExpression>getTask().getProcessCode() in ("114") &amp;&amp; (getTask().getAttributeValue("加工地点") in ("FG")  &amp;&amp; getTask().getAttributeValue("WHITE_TYPE") in ("特白","少荧","加白") )</conditionExpression>
+      </MachinePlanProcess>
+    </processes>
+  </MachinePlan>
+
+ 
+</list>

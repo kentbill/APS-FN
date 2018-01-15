@@ -1,0 +1,3400 @@
+<list>
+  <PlanningResult>
+    <taskID>3</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 18:41:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 18:42:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>664</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>128</nextTaskIDInChain>
+    <nextTaskIDInSameLot>4</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>93996</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>4</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-13 00:02:00</plannedStartTime>
+    <plannedEndTime>2018-01-13 00:03:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>867</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>3</previousTaskIDInSameLot>
+    <lotId>93996</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>1</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 17:26:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 17:27:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>180</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>664</nextTaskIDInChain>
+    <nextTaskIDInSameLot>2</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>87139</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>2</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 19:35:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 19:36:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>702</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>535</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>1</previousTaskIDInSameLot>
+    <lotId>87139</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>29</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 23:25:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 23:26:00</plannedEndTime>
+  
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>670</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>31</nextTaskIDInChain>
+    <nextTaskIDInSameLot>30</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99783</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>30</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 11:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 11:39:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>735</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>118</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>29</previousTaskIDInSameLot>
+    <lotId>99783</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>5</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 15:39:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 15:40:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>576</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>534</nextTaskIDInChain>
+    <nextTaskIDInSameLot>6</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>96048</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>6</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 17:52:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 17:53:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>220</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>702</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>5</previousTaskIDInSameLot>
+    <lotId>96048</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>246</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 23:31:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 23:36:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>31</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>482</nextTaskIDInChain>
+    <nextTaskIDInSameLot>247</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104027</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>31</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 23:27:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 23:30:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>29</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>246</nextTaskIDInChain>
+    <nextTaskIDInSameLot>32</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99835</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>32</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 16:27:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 16:30:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>775</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>137</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>31</previousTaskIDInSameLot>
+    <lotId>99835</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>247</taskID>
+    <machinePlanID>1989001</machinePlanID>
+    <plannedStartTime>2018-01-10 23:54:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 23:59:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>683</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>538</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>246</previousTaskIDInSameLot>
+    <lotId>104027</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>25</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 10:14:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 10:15:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>173</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>635</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99398</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>28</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 09:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 09:40:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>26</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>23</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99405</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>23</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 09:41:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 09:42:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>28</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>695</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99382</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>24</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-09 23:01:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 23:02:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>1988998</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>255</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99396</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>26</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 09:36:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 09:37:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>91</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>28</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99400</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>27</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-10 23:01:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 23:02:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>1989000</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>884</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99403</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>7</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 06:13:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 06:15:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>805</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>423</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>96427</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>10</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-09 16:45:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 16:46:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>62</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>863</nextTaskIDInChain>
+    <nextTaskIDInSameLot>11</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>98396</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>11</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 04:45:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:46:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>93</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>54</nextTaskIDInChain>
+    <nextTaskIDInSameLot>12</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>10</previousTaskIDInSameLot>
+    <lotId>98396</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>12</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 02:37:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 02:38:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>201</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>252</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>11</previousTaskIDInSameLot>
+    <lotId>98396</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>20</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 00:06:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 00:07:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>675</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>879</nextTaskIDInChain>
+    <nextTaskIDInSameLot>21</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>99143</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>21</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 04:09:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:10:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>883</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>110</nextTaskIDInChain>
+    <nextTaskIDInSameLot>22</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>20</previousTaskIDInSameLot>
+    <lotId>99143</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>22</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 07:21:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 07:22:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>172</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>443</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>21</previousTaskIDInSameLot>
+    <lotId>99143</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>137</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 16:36:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 16:37:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>32</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>597</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103331</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>147</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-09 10:05:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 10:07:00</plannedEndTime>
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>663</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>747</nextTaskIDInChain>
+    <nextTaskIDInSameLot>148</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103474</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>53</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 01:07:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:09:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>879</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>92</nextTaskIDInChain>
+    <nextTaskIDInSameLot>54</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102234</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>148</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 16:13:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 16:16:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>534</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>180</nextTaskIDInChain>
+    <nextTaskIDInSameLot>149</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>147</previousTaskIDInSameLot>
+    <lotId>103474</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>42</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 00:02:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 00:03:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>817</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>675</nextTaskIDInChain>
+    <nextTaskIDInSameLot>43</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>101875</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>54</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 04:47:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:49:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>11</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>818</nextTaskIDInChain>
+    <nextTaskIDInSameLot>55</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>53</previousTaskIDInSameLot>
+    <lotId>102234</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>43</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 02:48:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:49:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>800</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>821</nextTaskIDInChain>
+    <nextTaskIDInSameLot>44</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>42</previousTaskIDInSameLot>
+    <lotId>101875</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>44</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 13:40:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 13:41:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>166</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>196</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>43</previousTaskIDInSameLot>
+    <lotId>101875</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>55</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 14:13:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 14:15:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>174</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>384</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>54</previousTaskIDInSameLot>
+    <lotId>102234</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>149</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 17:05:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 17:08:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>115</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>271</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>148</previousTaskIDInSameLot>
+    <lotId>103474</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>102</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 00:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 00:42:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>84</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>201</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104797</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>108</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 07:58:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 08:00:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>707</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>109</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103139</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>109</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 08:01:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 08:03:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>108</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>272</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103141</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>110</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 04:11:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:15:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>21</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>704</nextTaskIDInChain>
+    <nextTaskIDInSameLot>111</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103143</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>130</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 04:19:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:21:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>704</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>676</nextTaskIDInChain>
+    <nextTaskIDInSameLot>131</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103288</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>111</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 04:27:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 04:31:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>633</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>805</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>110</previousTaskIDInSameLot>
+    <lotId>103143</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>131</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 06:45:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 06:48:00</plannedEndTime>
+  
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>378</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>707</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>130</previousTaskIDInSameLot>
+    <lotId>103288</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>150</taskID>
+    <machinePlanID>1989001</machinePlanID>
+    <plannedStartTime>2018-01-10 23:02:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 23:03:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>1989001</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>507</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103475</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>114</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 21:52:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 21:56:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>774</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>734</nextTaskIDInChain>
+    <nextTaskIDInSameLot>115</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103148</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>128</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 19:13:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 19:16:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>3</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>748</nextTaskIDInChain>
+    <nextTaskIDInSameLot>129</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103287</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>115</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 16:50:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 16:54:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>513</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>149</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>114</previousTaskIDInSameLot>
+    <lotId>103148</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>116</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 05:39:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 05:40:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>555</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>689</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103149</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>129</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 01:21:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 01:24:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>884</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>680</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>128</previousTaskIDInSameLot>
+    <lotId>103287</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>675</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 00:04:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 00:05:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>42</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>20</nextTaskIDInChain>
+    <nextTaskIDInSameLot>676</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104751</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>676</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 04:22:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:23:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>130</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>93</nextTaskIDInChain>
+    <nextTaskIDInSameLot>677</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>675</previousTaskIDInSameLot>
+    <lotId>104751</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>679</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-09 23:53:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 23:54:00</plannedEndTime>
+   
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>694</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>691</nextTaskIDInChain>
+    <nextTaskIDInSameLot>680</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104752</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>677</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 20:20:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 20:21:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>340</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>550</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>676</previousTaskIDInSameLot>
+    <lotId>104751</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>680</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 01:47:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 01:48:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>129</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>188</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>679</previousTaskIDInSameLot>
+    <lotId>104752</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>112</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 09:53:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 09:59:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>1988982</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>576</nextTaskIDInChain>
+    <nextTaskIDInSameLot>113</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103146</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>113</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 05:39:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 05:45:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>665</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>631</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>112</previousTaskIDInSameLot>
+    <lotId>103146</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>180</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 17:04:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 17:09:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>148</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>1</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103744</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>267</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 20:50:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 20:55:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>8</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>9</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104088</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>681</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-09 09:53:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 09:58:00</plannedEndTime>
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>1988976</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>663</nextTaskIDInChain>
+    <nextTaskIDInSameLot>682</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104753</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>682</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 04:37:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:43:00</plannedEndTime>
+    
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>776</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>506</nextTaskIDInChain>
+    <nextTaskIDInSameLot>683</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>681</previousTaskIDInSameLot>
+    <lotId>104753</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>683</taskID>
+    <machinePlanID>1989001</machinePlanID>
+    <plannedStartTime>2018-01-10 23:47:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 23:53:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>507</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>247</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>682</previousTaskIDInSameLot>
+    <lotId>104753</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>686</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 09:12:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 09:13:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>423</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>777</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104754</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>117</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 21:59:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 22:05:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>734</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>508</nextTaskIDInChain>
+    <nextTaskIDInSameLot>118</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103150</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>118</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 11:40:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 11:46:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>30</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>568</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>117</previousTaskIDInSameLot>
+    <lotId>103150</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>14</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 02:28:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:31:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>139</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>294</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>13</previousTaskIDInSameLot>
+    <lotId>98932</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>663</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-09 09:59:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 10:04:00</plannedEndTime>
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>681</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>147</nextTaskIDInChain>
+    <nextTaskIDInSameLot>664</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104747</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>664</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 18:34:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 18:40:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>1</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>3</nextTaskIDInChain>
+    <nextTaskIDInSameLot>665</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>663</previousTaskIDInSameLot>
+    <lotId>104747</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>665</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 05:32:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 05:38:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>544</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>113</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>664</previousTaskIDInSameLot>
+    <lotId>104747</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>668</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 06:36:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 06:37:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>671</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>378</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104748</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>633</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 04:20:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 04:21:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>101</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>111</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104729</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>635</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 11:33:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 11:35:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>25</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>735</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104730</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>121</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 01:31:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:33:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>773</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>373</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103199</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>65</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-09 17:18:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 17:41:00</plannedEndTime>
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>747</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>793</nextTaskIDInChain>
+    <nextTaskIDInSameLot>66</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102407</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>66</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 19:30:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 19:59:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>748</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>8</nextTaskIDInChain>
+    <nextTaskIDInSameLot>67</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>65</previousTaskIDInSameLot>
+    <lotId>102407</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>67</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 01:34:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 02:13:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>881</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>644</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>66</previousTaskIDInSameLot>
+    <lotId>102407</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>669</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-09 17:46:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 17:49:00</plannedEndTime>
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>772</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>483</nextTaskIDInChain>
+    <nextTaskIDInSameLot>670</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104749</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>670</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 22:51:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 22:54:00</plannedEndTime>
+    
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>508</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>29</nextTaskIDInChain>
+    <nextTaskIDInSameLot>671</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>669</previousTaskIDInSameLot>
+    <lotId>104749</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>671</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 05:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 05:59:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>223</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>668</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>670</previousTaskIDInSameLot>
+    <lotId>104749</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>674</taskID>
+    <machinePlanID>1989001</machinePlanID>
+    <plannedStartTime>2018-01-11 00:39:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 00:40:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>415</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104750</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>585</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 11:56:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 11:57:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>705</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>60</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104699</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>631</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 06:02:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 06:05:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>113</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>172</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104728</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>62</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-09 10:32:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 10:46:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>509</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>10</nextTaskIDInChain>
+    <nextTaskIDInSameLot>63</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102406</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>63</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 02:29:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:45:00</plannedEndTime>
+    
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>380</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>800</nextTaskIDInChain>
+    <nextTaskIDInSameLot>64</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>62</previousTaskIDInSameLot>
+    <lotId>102406</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>64</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 20:25:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 20:42:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>535</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>526</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>63</previousTaskIDInSameLot>
+    <lotId>102406</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>506</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 04:44:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:45:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>682</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>795</nextTaskIDInChain>
+    <nextTaskIDInSameLot>507</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104613</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>507</taskID>
+    <machinePlanID>1989001</machinePlanID>
+    <plannedStartTime>2018-01-10 23:45:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 23:46:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>150</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>683</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>506</previousTaskIDInSameLot>
+    <lotId>104613</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>600</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 09:36:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 09:37:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>99</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>511</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104709</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>505</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 08:20:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 08:21:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>621</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>41</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104612</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>373</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 01:50:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:51:00</plannedEndTime>
+    
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>121</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>543</nextTaskIDInChain>
+    <nextTaskIDInSameLot>374</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104390</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>374</taskID>
+    <machinePlanID>1988997</machinePlanID>
+    <plannedStartTime>2018-01-10 01:52:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:53:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>1988997</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>33</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>373</previousTaskIDInSameLot>
+    <lotId>104390</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>621</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 07:23:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 08:03:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>689</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>505</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104724</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>509</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-09 09:53:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 10:31:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>1988977</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>62</nextTaskIDInChain>
+    <nextTaskIDInSameLot>510</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104617</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>510</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 08:48:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 09:31:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>866</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>511</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>509</previousTaskIDInSameLot>
+    <lotId>104617</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>511</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 09:43:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 10:31:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>600</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>533</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>510</previousTaskIDInSameLot>
+    <lotId>104617</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>534</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 16:11:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 16:12:00</plannedEndTime>
+   
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>5</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>148</nextTaskIDInChain>
+    <nextTaskIDInSameLot>535</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104634</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>535</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 20:07:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 20:08:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>2</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>64</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>534</previousTaskIDInSameLot>
+    <lotId>104634</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>513</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 14:42:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 15:32:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>392</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>115</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104618</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>533</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 11:08:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 12:06:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>511</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>381</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104633</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>555</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 04:59:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 05:02:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>445</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>116</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104648</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>538</taskID>
+    <machinePlanID>1989001</machinePlanID>
+    <plannedStartTime>2018-01-11 00:00:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 00:02:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>247</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>415</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104635</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>230</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 01:47:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:49:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>369</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>820</nextTaskIDInChain>
+    <nextTaskIDInSameLot>231</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103980</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>369</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 01:44:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:46:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>804</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>230</nextTaskIDInChain>
+    <nextTaskIDInSameLot>370</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104363</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>612</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-09 22:13:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 22:15:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>863</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>693</nextTaskIDInChain>
+    <nextTaskIDInSameLot>613</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104714</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>370</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 06:41:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 06:43:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>231</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>880</nextTaskIDInChain>
+    <nextTaskIDInSameLot>371</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>369</previousTaskIDInSameLot>
+    <lotId>104363</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>231</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 06:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 06:40:00</plannedEndTime>
+    
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>864</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>370</nextTaskIDInChain>
+    <nextTaskIDInSameLot>232</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>230</previousTaskIDInSameLot>
+    <lotId>103980</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>613</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 08:16:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 08:18:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>880</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>866</nextTaskIDInChain>
+    <nextTaskIDInSameLot>614</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>612</previousTaskIDInSameLot>
+    <lotId>104714</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>371</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 10:10:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 10:13:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>41</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>822</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>370</previousTaskIDInSameLot>
+    <lotId>104363</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>614</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 08:19:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 08:21:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>1988999</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>91</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>613</previousTaskIDInSameLot>
+    <lotId>104714</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>232</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 15:20:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 15:23:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>100</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>231</previousTaskIDInSameLot>
+    <lotId>103980</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>379</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-09 22:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 23:40:00</plannedEndTime>
+   
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>693</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>817</nextTaskIDInChain>
+    <nextTaskIDInSameLot>380</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104394</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>380</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 01:08:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:58:00</plannedEndTime>
+
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>886</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>63</nextTaskIDInChain>
+    <nextTaskIDInSameLot>381</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>379</previousTaskIDInSameLot>
+    <lotId>104394</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>381</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 12:12:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 13:08:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>533</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>174</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>380</previousTaskIDInSameLot>
+    <lotId>104394</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>92</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 01:10:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:28:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>53</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>703</nextTaskIDInChain>
+    <nextTaskIDInSameLot>93</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102880</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>93</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 04:24:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:44:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>676</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>11</nextTaskIDInChain>
+    <nextTaskIDInSameLot>94</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>92</previousTaskIDInSameLot>
+    <lotId>102880</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>94</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 12:02:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 12:32:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>234</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>819</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>93</previousTaskIDInSameLot>
+    <lotId>102880</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>443</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 07:28:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 10:18:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>22</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>234</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104923</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>576</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 15:11:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 15:28:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>112</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>5</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104679</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>543</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 01:52:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:18:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>373</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>794</nextTaskIDInChain>
+    <nextTaskIDInSameLot>544</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104638</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>544</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 04:09:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 04:44:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>214</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>665</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>543</previousTaskIDInSameLot>
+    <lotId>104638</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>644</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 02:44:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 03:09:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>67</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>143</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104734</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>33</taskID>
+    <machinePlanID>1988997</machinePlanID>
+    <plannedStartTime>2018-01-11 09:18:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 09:36:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>374</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>100341</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>566</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 03:09:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 03:37:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>821</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>883</nextTaskIDInChain>
+    <nextTaskIDInSameLot>567</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104655</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>567</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 03:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:03:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>801</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>887</nextTaskIDInChain>
+    <nextTaskIDInSameLot>568</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>566</previousTaskIDInSameLot>
+    <lotId>104655</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>568</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 12:03:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 12:35:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>118</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>862</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>567</previousTaskIDInSameLot>
+    <lotId>104655</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>525</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 06:00:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 06:22:00</plannedEndTime>
+
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>818</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>864</nextTaskIDInChain>
+    <nextTaskIDInSameLot>526</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>524</previousTaskIDInSameLot>
+    <lotId>104627</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>526</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 20:48:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 21:53:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>64</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>881</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>525</previousTaskIDInSameLot>
+    <lotId>104627</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>447</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 10:58:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 12:02:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>822</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>393</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104575</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>91</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 09:09:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 09:19:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>614</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>26</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102843</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>689</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 05:46:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 06:11:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>116</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>621</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104774</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>445</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 03:39:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 03:58:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>252</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>555</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104574</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>550</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 20:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 20:52:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>677</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>233</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104641</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>579</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 11:49:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 12:03:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>179</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>362</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104680</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>482</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 00:07:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 00:10:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>246</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>773</nextTaskIDInChain>
+    <nextTaskIDInSameLot>483</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104604</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>483</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-10 00:16:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 00:18:00</plannedEndTime>
+
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>669</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>796</nextTaskIDInChain>
+    <nextTaskIDInSameLot>484</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>482</previousTaskIDInSameLot>
+    <lotId>104604</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>484</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 15:10:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 15:13:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>862</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>775</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>483</previousTaskIDInSameLot>
+    <lotId>104604</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>597</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 16:43:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 17:28:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>137</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>238</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104708</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>691</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-09 23:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 00:11:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>679</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>886</nextTaskIDInChain>
+    <nextTaskIDInSameLot>692</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104775</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>692</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 08:44:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 09:02:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>802</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>288</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>691</previousTaskIDInSameLot>
+    <lotId>104775</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>693</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-09 22:21:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 22:49:00</plannedEndTime>
+
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>612</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>379</nextTaskIDInChain>
+    <nextTaskIDInSameLot>694</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104776</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>694</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-09 22:50:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 23:22:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>1988983</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>679</nextTaskIDInChain>
+    <nextTaskIDInSameLot>695</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>693</previousTaskIDInSameLot>
+    <lotId>104776</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>695</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 10:24:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 11:11:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>23</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>705</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>694</previousTaskIDInSameLot>
+    <lotId>104776</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>8</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 20:16:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 20:19:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>66</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>267</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>97711</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>9</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 20:56:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 21:03:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>267</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>774</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>98151</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>415</taskID>
+    <machinePlanID>1989001</machinePlanID>
+    <plannedStartTime>2018-01-11 00:19:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 00:22:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>538</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>674</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104497</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>13</taskID>
+    <machinePlanID>1989022</machinePlanID>
+    <plannedStartTime>2018-01-09 09:53:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 09:55:00</plannedEndTime>
+    <machineIden>35</machineIden>
+    <previousStepIDInChain>1989022</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInSameLot>14</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>98932</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>188</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 02:00:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 02:22:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>680</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>319</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103790</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>378</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 06:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 06:39:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>668</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>131</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104393</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>393</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 12:13:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 12:38:00</plannedEndTime>
+    
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>447</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>166</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104415</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>100</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 14:00:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 15:19:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>60</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>232</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102989</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>143</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 03:10:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 03:14:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>644</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>733</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103451</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>213</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 22:34:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 00:21:00</plannedEndTime>
+  
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>233</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>270</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103907</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>392</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 13:46:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 14:41:00</plannedEndTime>
+  
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>819</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>513</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104414</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>223</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 03:54:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:43:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>56</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>671</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103968</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>294</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 02:43:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 03:33:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>14</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>56</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104166</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>384</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 14:21:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 14:57:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>55</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>797</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104397</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>166</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 12:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 13:23:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>393</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>44</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103645</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>350</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 14:46:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 15:56:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>265</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>220</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104307</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>287</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 19:33:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 20:10:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>328</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>750</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104140</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>201</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 01:19:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 02:26:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>102</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>12</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103859</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>508</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 22:16:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 22:40:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>117</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>670</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104616</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>139</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 01:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:40:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>255</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>14</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103440</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>56</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 03:39:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 03:48:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>294</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>223</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102235</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>172</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 06:48:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 06:58:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>631</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>22</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103652</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>395</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 18:41:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 19:40:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>300</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>340</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104417</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>270</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 00:22:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 00:42:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>213</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>101</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104102</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>238</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 17:39:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 17:47:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>597</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>410</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103991</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>245</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 19:27:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 20:00:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>888</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>327</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104022</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>524</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 04:42:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 05:02:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>865</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>525</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104627</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>84</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 22:45:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 00:37:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>165</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>102</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102663</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>101</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 01:19:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 03:02:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>270</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>633</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103008</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>165</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 21:29:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 22:44:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>327</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>84</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103633</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>255</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-09 23:19:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 00:20:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>24</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>139</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104061</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>196</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 13:47:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 14:02:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>44</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>265</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103839</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>252</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 02:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 03:28:00</plannedEndTime>
+  
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>12</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>445</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104042</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>179</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 11:05:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 11:26:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>777</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>579</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103717</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>41</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 08:50:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 10:09:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>505</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>371</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>101853</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>60</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 12:28:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 13:59:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>585</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>100</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102385</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>99</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 08:34:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 09:35:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>357</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>600</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>102972</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>271</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 17:51:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 18:00:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>149</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>300</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104104</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>272</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 08:20:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 08:35:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>109</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>802</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104105</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>288</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 09:03:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 09:25:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>692</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>173</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104141</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>423</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 07:03:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 07:54:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>7</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>686</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104518</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>319</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 02:28:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 02:34:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>188</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>214</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104266</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>233</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 21:03:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 21:32:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>550</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>213</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103983</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>234</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 10:29:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 11:20:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>443</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>94</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103984</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>328</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 17:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 18:56:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>797</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>287</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104283</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>214</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 02:40:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 02:56:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>319</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>544</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103928</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>174</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 13:45:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 14:07:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>381</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>55</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103666</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>293</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 04:46:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 06:13:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>733</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>357</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104162</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>357</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 06:14:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 06:50:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>293</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>99</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104323</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>220</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 16:13:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 16:40:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>350</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>6</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103940</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>362</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 12:20:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 12:29:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>579</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104349</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>300</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 18:06:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 18:35:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>271</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>395</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104204</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>327</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 20:42:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 20:52:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>245</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>165</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104280</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>173</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 09:56:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 10:08:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>288</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>25</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>103664</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>410</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 18:18:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 18:59:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>238</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>888</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104455</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>265</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 14:03:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 14:35:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>196</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>350</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104083</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>340</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 19:41:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 20:19:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>395</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>677</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104298</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>702</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 18:16:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 18:17:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>6</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>2</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104798</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>795</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 04:46:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 05:42:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>506</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>796</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104823</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>796</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-10 05:48:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 06:33:00</plannedEndTime>
+
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>483</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>797</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>795</previousTaskIDInSameLot>
+    <lotId>104823</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>797</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 15:58:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 17:12:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>384</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>328</nextTaskIDInChain>
+    <nextTaskIDInSameLot>798</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>796</previousTaskIDInSameLot>
+    <lotId>104823</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>798</taskID>
+    <machinePlanID>1989037</machinePlanID>
+    <plannedStartTime>2018-01-12 17:13:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 18:27:00</plannedEndTime>
+    <machineIden>51</machineIden>
+    <previousStepIDInChain>1989037</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>797</previousTaskIDInSameLot>
+    <lotId>104823</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>776</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 03:34:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 03:35:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>794</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>682</nextTaskIDInChain>
+    <nextTaskIDInSameLot>777</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104787</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>777</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 09:50:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 09:52:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>686</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>179</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>776</previousTaskIDInSameLot>
+    <lotId>104787</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>707</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 07:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 07:57:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>131</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>108</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104779</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>817</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-09 23:41:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 00:01:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>379</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>42</nextTaskIDInChain>
+    <nextTaskIDInSameLot>818</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104882</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>818</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 05:26:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 05:54:00</plannedEndTime>
+
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>54</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>525</nextTaskIDInChain>
+    <nextTaskIDInSameLot>819</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>817</previousTaskIDInSameLot>
+    <lotId>104882</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>819</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-11 13:03:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 13:35:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>94</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>392</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>818</previousTaskIDInSameLot>
+    <lotId>104882</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>750</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 21:22:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 21:24:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>287</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>867</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104828</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>747</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-09 17:16:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 17:17:00</plannedEndTime>
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>147</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>65</nextTaskIDInChain>
+    <nextTaskIDInSameLot>748</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104782</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>793</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-09 17:42:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 17:43:00</plannedEndTime>
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>65</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>772</nextTaskIDInChain>
+    <nextTaskIDInSameLot>794</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104783</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>772</taskID>
+    <machinePlanID>1988976</machinePlanID>
+    <plannedStartTime>2018-01-09 17:44:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 17:45:00</plannedEndTime>
+    <machineIden>1</machineIden>
+    <previousStepIDInChain>793</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>669</nextTaskIDInChain>
+    <nextTaskIDInSameLot>773</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104789</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>748</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 19:22:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 19:24:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>128</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>66</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>747</previousTaskIDInSameLot>
+    <lotId>104782</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>794</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 02:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:57:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>543</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>776</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>793</previousTaskIDInSameLot>
+    <lotId>104783</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>773</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-10 01:18:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:20:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>482</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>121</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>772</previousTaskIDInSameLot>
+    <lotId>104789</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>733</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 04:02:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 04:03:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>143</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>293</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104809</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>863</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-09 22:09:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 22:12:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>10</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>612</nextTaskIDInChain>
+    <nextTaskIDInSameLot>864</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104905</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>864</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 06:28:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 06:32:00</plannedEndTime>
+
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>525</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>231</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>863</previousTaskIDInSameLot>
+    <lotId>104905</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>800</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 02:46:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:47:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>63</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>43</nextTaskIDInChain>
+    <nextTaskIDInSameLot>801</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104875</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>801</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 02:48:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:49:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>882</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>567</nextTaskIDInChain>
+    <nextTaskIDInSameLot>802</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>800</previousTaskIDInSameLot>
+    <lotId>104875</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>802</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 08:36:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 08:38:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>272</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>692</nextTaskIDInChain>
+    <nextTaskIDInSameLot>803</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>801</previousTaskIDInSameLot>
+    <lotId>104875</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>803</taskID>
+    <machinePlanID>1989059</machinePlanID>
+    <plannedStartTime>2018-01-12 05:43:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 05:45:00</plannedEndTime>
+    <machineIden>77</machineIden>
+    <previousStepIDInChain>823</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>802</previousTaskIDInSameLot>
+    <lotId>104875</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>774</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 21:20:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 21:21:00</plannedEndTime>
+
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>9</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>114</nextTaskIDInChain>
+    <nextTaskIDInSameLot>775</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104788</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>775</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 15:55:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 15:56:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>484</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>32</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>774</previousTaskIDInSameLot>
+    <lotId>104788</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>703</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 01:29:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:31:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>92</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>804</nextTaskIDInChain>
+    <nextTaskIDInSameLot>704</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104780</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>704</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 04:16:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:18:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>110</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>130</nextTaskIDInChain>
+    <nextTaskIDInSameLot>705</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>703</previousTaskIDInSameLot>
+    <lotId>104780</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>705</taskID>
+    <machinePlanID>1988999</machinePlanID>
+    <plannedStartTime>2018-01-10 11:48:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 11:50:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>695</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>585</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>704</previousTaskIDInSameLot>
+    <lotId>104780</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>865</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 04:15:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:41:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>887</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>524</nextTaskIDInChain>
+    <nextTaskIDInSameLot>866</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104910</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>866</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 08:19:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 08:47:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>613</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>510</nextTaskIDInChain>
+    <nextTaskIDInSameLot>867</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>865</previousTaskIDInSameLot>
+    <lotId>104910</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>867</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-12 22:18:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 22:50:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>750</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>4</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>866</previousTaskIDInSameLot>
+    <lotId>104910</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>734</taskID>
+    <machinePlanID>1988982</machinePlanID>
+    <plannedStartTime>2018-01-09 21:57:00</plannedStartTime>
+    <plannedEndTime>2018-01-09 21:58:00</plannedEndTime>
+    <machineIden>8</machineIden>
+    <previousStepIDInChain>114</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>117</nextTaskIDInChain>
+    <nextTaskIDInSameLot>735</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104810</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>735</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 11:36:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 11:37:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>635</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>30</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>734</previousTaskIDInSameLot>
+    <lotId>104810</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>879</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 00:11:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:06:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>20</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>53</nextTaskIDInChain>
+    <nextTaskIDInSameLot>880</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104908</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>880</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 07:14:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 08:15:00</plannedEndTime>
+
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>370</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>613</nextTaskIDInChain>
+    <nextTaskIDInSameLot>881</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>879</previousTaskIDInSameLot>
+    <lotId>104908</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>881</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 23:01:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 00:33:00</plannedEndTime>
+   
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>526</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>67</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>880</previousTaskIDInSameLot>
+    <lotId>104908</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>886</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 00:48:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:02:00</plannedEndTime>
+
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>691</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>380</nextTaskIDInChain>
+    <nextTaskIDInSameLot>887</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104911</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>887</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 04:04:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:14:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>567</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>865</nextTaskIDInChain>
+    <nextTaskIDInSameLot>888</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>886</previousTaskIDInSameLot>
+    <lotId>104911</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>888</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 19:00:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 19:16:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>410</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>245</nextTaskIDInChain>
+    <nextTaskIDInSameLot>889</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>887</previousTaskIDInSameLot>
+    <lotId>104911</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>889</taskID>
+    <machinePlanID>1989048</machinePlanID>
+    <plannedStartTime>2018-01-11 00:46:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 01:06:00</plannedEndTime>
+    <machineIden>65</machineIden>
+    <previousStepIDInChain>885</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>888</previousTaskIDInSameLot>
+    <lotId>104911</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>882</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 02:08:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:35:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>820</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>801</nextTaskIDInChain>
+    <nextTaskIDInSameLot>883</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104916</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>883</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 03:38:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 04:08:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>566</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>21</nextTaskIDInChain>
+    <nextTaskIDInSameLot>884</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>882</previousTaskIDInSameLot>
+    <lotId>104916</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>884</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-10 23:19:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 00:03:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>27</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>129</nextTaskIDInChain>
+    <nextTaskIDInSameLot>885</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>883</previousTaskIDInSameLot>
+    <lotId>104916</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>885</taskID>
+    <machinePlanID>1989048</machinePlanID>
+    <plannedStartTime>2018-01-11 00:04:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 00:45:00</plannedEndTime>
+    <machineIden>65</machineIden>
+    <previousStepIDInChain>1989048</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>889</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>884</previousTaskIDInSameLot>
+    <lotId>104916</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>862</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-10 12:52:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 13:21:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>568</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>484</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104924</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>820</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 01:50:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 02:07:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>230</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>882</nextTaskIDInChain>
+    <nextTaskIDInSameLot>821</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104884</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>821</taskID>
+    <machinePlanID>1988983</machinePlanID>
+    <plannedStartTime>2018-01-10 02:50:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 03:08:00</plannedEndTime>
+    <machineIden>9</machineIden>
+    <previousStepIDInChain>43</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>566</nextTaskIDInChain>
+    <nextTaskIDInSameLot>822</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>820</previousTaskIDInSameLot>
+    <lotId>104884</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>822</taskID>
+    <machinePlanID>1988998</machinePlanID>
+    <plannedStartTime>2018-01-11 10:14:00</plannedStartTime>
+    <plannedEndTime>2018-01-11 10:41:00</plannedEndTime>
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>371</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>447</nextTaskIDInChain>
+    <nextTaskIDInSameLot>823</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>821</previousTaskIDInSameLot>
+    <lotId>104884</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>823</taskID>
+    <machinePlanID>1989059</machinePlanID>
+    <plannedStartTime>2018-01-12 05:15:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 05:42:00</plannedEndTime>
+    <machineIden>77</machineIden>
+    <previousStepIDInChain>806</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>803</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>822</previousTaskIDInSameLot>
+    <lotId>104884</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>804</taskID>
+    <machinePlanID>1988977</machinePlanID>
+    <plannedStartTime>2018-01-10 01:32:00</plannedStartTime>
+    <plannedEndTime>2018-01-10 01:43:00</plannedEndTime>
+    <machineIden>2</machineIden>
+    <previousStepIDInChain>703</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>369</nextTaskIDInChain>
+    <nextTaskIDInSameLot>805</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>0</previousTaskIDInSameLot>
+    <lotId>104876</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>805</taskID>
+    <machinePlanID>1989000</machinePlanID>
+    <plannedStartTime>2018-01-12 04:42:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 04:55:00</plannedEndTime>
+
+    <machineIden>14</machineIden>
+    <previousStepIDInChain>111</previousStepIDInChain>
+    <previousStepType>1</previousStepType>
+    <nextTaskIDInChain>7</nextTaskIDInChain>
+    <nextTaskIDInSameLot>806</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>804</previousTaskIDInSameLot>
+    <lotId>104876</lotId>
+  </PlanningResult>
+  <PlanningResult>
+    <taskID>806</taskID>
+    <machinePlanID>1989059</machinePlanID>
+    <plannedStartTime>2018-01-12 04:56:00</plannedStartTime>
+    <plannedEndTime>2018-01-12 05:14:00</plannedEndTime>
+    <machineIden>77</machineIden>
+    <previousStepIDInChain>1989059</previousStepIDInChain>
+    <previousStepType>0</previousStepType>
+    <nextTaskIDInChain>823</nextTaskIDInChain>
+    <nextTaskIDInSameLot>0</nextTaskIDInSameLot>
+    <previousTaskIDInSameLot>805</previousTaskIDInSameLot>
+    <lotId>104876</lotId>
+  </PlanningResult>
+</list>

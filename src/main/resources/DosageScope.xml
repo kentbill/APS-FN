@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!--  defined the message what using in system -->
+
+	<DosageScope>
+		<id>1</id>
+		<scopeValue>5</scopeValue>
+		<lowValue>0</lowValue>
+		<upValue>1000</upValue>
+	</DosageScope>
+	
+	<DosageScope>
+		<id>2</id>
+		<scopeValue>10</scopeValue>
+		<lowValue>1001</lowValue>
+		<upValue>10000</upValue>
+	</DosageScope>
+	
+	<DosageScope>
+		<id>3</id>
+		<scopeValue>15</scopeValue>
+		<lowValue>10001</lowValue>
+		<upValue>25000</upValue>
+	</DosageScope>
+	
+	<DosageScope>
+		<id>4</id>
+		<scopeValue>20</scopeValue>
+		<lowValue>25001</lowValue>
+		<upValue>40000</upValue>
+	</DosageScope>
+	
+	<DosageScope>
+		<id>5</id>
+		<scopeValue>25</scopeValue>
+		<lowValue>40001</lowValue>
+		<upValue>60000</upValue>
+	</DosageScope>
+	
+	<DosageScope>
+		<id>6</id>
+		<scopeValue>30</scopeValue>
+		<lowValue>60001</lowValue>
+		<upValue>80000</upValue>
+	</DosageScope>
+	
+	<DosageScope>
+		<id>7</id>
+		<scopeValue>35</scopeValue>
+		<lowValue>80001</lowValue>
+		<upValue>100000</upValue>
+	</DosageScope>
+	
+	<DosageScope>
+		<id>8</id>
+		<scopeValue>40</scopeValue>
+		<lowValue>100001</lowValue>
+		<upValue>-1</upValue>
+	</DosageScope>
+</list>

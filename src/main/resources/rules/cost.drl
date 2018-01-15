@@ -1,0 +1,121 @@
+/**
+本规则包含了可以实现成本优先的约束规则
+**/
+
+package com.esquel.APS.GEW_FN.configuration;
+
+
+import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreHolder;
+import com.esquel.APS.GEW_FN.domain.Task;
+import com.esquel.APS.GEW_FN.domain.MachinePlan;
+import com.esquel.APS.GEW_FN.solver.interactor.NonproductionAssertionInteractor;
+import com.esquel.APS.GEW_FN.solver.interactor.TaskMachinePlanAssertionInteractor;
+import com.esquel.APS.GEW_FN.domain.enums.RuleDefinition;
+import com.esquel.APS.GEW_FN.domain.enums.TaskMachinePlanBrokenType;
+import com.esquel.APS.GEW_FN.domain.enums.TaskType_Location_In_Lot;
+import com.esquel.APS.Helpers.Common;
+
+//Score Holder for OptaPlanner
+global HardMediumSoftLongScoreHolder scoreHolder;
+dialect "java"
+
+// ############################################################################
+// Soft constraints
+// ############################################################################
+
+rule "Catch-Up-Delivery-Time" 
+//salience 10
+when
+	//Task((getMachinePlan() != null) && (getPlanStartTime() != null) && ($score : getScore(RuleDefinition.DELIVERY_TIME) > 0))
+	$task : Task(
+		getPlanEndTimeL() != null,
+		getPlanEndTimeL() > 0L, 
+		deliveryTimeL != null, 
+		deliveryTimeL > 0L,  
+		getPlanEndTimeL() > deliveryTimeL
+		)
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, $task.getDeliveryTimeL() - $task.getPlanEndTimeL());
+end
+
+
+// 让每个机台的最后一个任务的结束时间尽量小, 以机台的最后一个任务的结束时间作为判断条件
+/*
+rule "Minimze-makespan"
+when
+	$task : Task($machinePlan : machinePlan != null, previousStep != null, getPlanEndTimeL() != null )
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, $machinePlan.getStartTimeL() - $task.getPlanEndTimeL());
+end
+*/
+
+
+
+// 确保信息的结束时间比机台的结束时间早
+rule "Later than machinePlan end time"
+when
+	$task : Task(machinePlan != null, previousStep != null,
+		getPlanEndTimeL() != null, getPlanEndTimeL() > 0L, 
+		getPlanEndTimeL() > machinePlan.endTimeL)
+then
+
+	scoreHolder.addSoftConstraintMatch(kcontext, ($task.getMachinePlan().getEndTimeL() - $task.getPlanEndTimeL()));
+end
+
+
+
+// Minimize task delay
+rule "Minimize-task-delay"
+when
+	Task(previousStep != null, $score : getDelayL())
+then
+	scoreHolder.addSoftConstraintMatch(kcontext, -$score);
+end
+
+
+/*
+// Check if the task can finish before taskRequestFinishTime field value define.
+rule "Task-Finished-On-Time"
+when
+	$task : Task(machinePlan != null, 
+			planStartTimeL != null, 
+			planStartTimeL > 0L, 
+			taskRequestFinishTimeL != null,
+			taskRequestFinishTimeL != 0L, 
+			//arrivalTimeL != null, 
+		//	arrivalTimeL != 0L, 
+		//	arrivalTimeL < taskRequestFinishTimeL, // 仅对到达时间与要求完成时间合理的任务（到达时间较要求完成 时间早）的任务适用
+			nextTaskID == 0L,						// 仅对最后一个工序进行判断
+			getPlanEndTimeL() > taskRequestFinishTimeL)
+	
+then
+//	System.out.println("Task-Finished-On-Time[" + ($task.getTaskRequestFinishTimeL() - $task.getPlanEndTimeL()) + "]");
+	scoreHolder.addMediumConstraintMatch(kcontext, $task.getTaskRequestFinishTimeL() - $task.getPlanEndTimeL());
+end
+*/
+
+// 取代Catch-Up-Delivery-Time
+rule "Catch up shift"
+when 
+	Task(
+		(taskLocation == TaskType_Location_In_Lot.SINK || taskLocation == TaskType_Location_In_Lot.ONLY_ONE), // 仅对最后一个任务进行评分
+		getPlanEndTimeL() != null, getPlanEndTimeL() > 0L, // 仅对已完成结束任务计算的任务进行评分
+		fn_DeliveryTimeL != null, fn_DeliveryTimeL > 0L,  // 仅对存在后整交期的任务进行评分
+		machinePlan != null,
+		$score : getShiftDelayScore1() > 0L
+	)
+then
+
+	scoreHolder.addSoftConstraintMatch(kcontext, $score);
+end
+
+
+
+rule "Minimize-NonproductionTasks"
+when
+	Task(machinePlan != null, nonproductionScore != null, nonproductionScore != 0L, $score : getNonproductionScore())
+	
+then
+	scoreHolder.addMediumConstraintMatch(kcontext, -$score);
+end
+

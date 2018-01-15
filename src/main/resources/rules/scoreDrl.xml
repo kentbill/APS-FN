@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!--  defined the message what using in system -->
+	<ScoreDrl>
+		<key>global</key>
+		<drlFileName>rules/global.drl</drlFileName>
+		<remark>全局评分</remark>
+	</ScoreDrl>
+	
+	<ScoreDrl>
+		<key>cost</key>
+		<drlFileName>rules/cost.drl</drlFileName>
+		<remark>成本优先评分</remark>
+	</ScoreDrl>
+	
+	<ScoreDrl>
+		<key>delivery</key>
+		<drlFileName>rules/delivery.drl</drlFileName>
+		<remark>保障交期评价</remark>
+	</ScoreDrl>
+	
+	<ScoreDrl>
+		<key>efficiency</key>
+		<drlFileName>rules/efficiency.drl</drlFileName>
+		<remark>保障效率评分</remark>
+	</ScoreDrl>
+	
+</list>
