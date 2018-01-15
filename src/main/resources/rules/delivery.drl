@@ -43,7 +43,7 @@ then
 end
 */
 
-// 取代Catch-Up-Delivery-Time
+// 对最后一个任务而言，当它的结束时间比交期迟时，计算出迟了多少个班次（每个班次是8小时)
 rule "Catch up shift"
 when 
 	Task(
@@ -51,7 +51,7 @@ when
 		getPlanEndTimeL() != null, getPlanEndTimeL() > 0L, // 仅对已完成结束任务计算的任务进行评分
 		fn_DeliveryTimeL != null, fn_DeliveryTimeL > 0L,  // 仅对存在后整交期的任务进行评分
 		machinePlan != null,
-		$score : getShiftDelayScore1() > 0L
+		$score : getShiftDelayScore_1() > 0L
 	)
 then
 	scoreHolder.addMediumConstraintMatch(kcontext, $score);

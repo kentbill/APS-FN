@@ -636,8 +636,16 @@ public class Task extends Step  {
 		return nonprdTaskSumm.getDuation();
 	}
 	
-	public Long getShiftDelayScore1(){
-		return 	this.fn_DeliveryTimeL - this.getPlanEndTimeL();
+	public Long getShiftDelayScore_1(){
+		Double delay = (double) (this.fn_DeliveryTimeL - this.getPlanEndTimeL());
+		Double shiftD = delay / 8;
+		Long shiftL = 0L;
+		if(shiftD < 1){
+			shiftL = 1L;
+		}else{
+			shiftL = (long) Math.ceil(shiftD);
+		}
+		return 	shiftL;
 	}
 	
 	/**
